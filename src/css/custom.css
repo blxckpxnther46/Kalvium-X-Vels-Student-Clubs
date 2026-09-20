@@ -1,6 +1,6 @@
 /**
  * GitBook Dark Red Matte Theme
- * Replicating the exact UI from GitBook reference screenshot
+ * Spacing & Padding Optimization for Main Content
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
@@ -55,7 +55,7 @@ body {
   background: #191515 !important;
   border-bottom: 1px solid #2a2020;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
-  padding: 0.6rem 1.5rem;
+  padding: 0.6rem 2rem;
 }
 
 .navbar__logo {
@@ -101,7 +101,7 @@ body {
 }
 
 .menu {
-  padding: 1rem 0.8rem !important;
+  padding: 1.2rem 1rem !important;
 }
 
 .menu__link {
@@ -135,8 +135,8 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #8c7a7a !important;
-  margin-top: 0.8rem;
-  margin-bottom: 0.2rem;
+  margin-top: 1rem;
+  margin-bottom: 0.3rem;
   padding-left: 0.5rem;
 }
 
@@ -145,29 +145,73 @@ body {
   color: #ffffff !important;
 }
 
-/* Main Documentation Area */
+/* Main Documentation Area Layout & Generous Spacing */
+.docMainContainer {
+  padding-left: 3.5rem !important;
+  padding-right: 3.5rem !important;
+}
+
+.docItemContainer {
+  max-width: 860px !important;
+  padding-top: 2rem !important;
+  padding-bottom: 4rem !important;
+  margin: 0 auto !important;
+}
+
+@media (max-width: 996px) {
+  .docMainContainer {
+    padding-left: 1.2rem !important;
+    padding-right: 1.2rem !important;
+  }
+  .docItemContainer {
+    padding-top: 1.5rem !important;
+  }
+}
+
+/* Markdown Content Styling */
+.markdown {
+  font-size: 1.02rem;
+  line-height: 1.75;
+  color: #d8cccc;
+}
+
+.markdown p {
+  margin-bottom: 1.4rem;
+}
+
 .markdown h1 {
-  font-size: 2.3rem;
+  font-size: 2.35rem;
   font-weight: 700;
   letter-spacing: -0.02em;
   color: #ffffff;
   margin-top: 0.5rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.8rem;
   border-bottom: none;
 }
 
 .markdown h2 {
-  font-size: 1.5rem;
+  font-size: 1.55rem;
   font-weight: 700;
   color: #ffffff;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-top: 2.4rem;
+  margin-bottom: 1.1rem;
 }
 
 .markdown h3 {
-  font-size: 1.2rem;
+  font-size: 1.22rem;
   font-weight: 600;
   color: #f0e6e6;
+  margin-top: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
+.markdown ul, .markdown ol {
+  margin-bottom: 1.5rem;
+  padding-left: 1.6rem;
+}
+
+.markdown li {
+  margin-bottom: 0.55rem;
 }
 
 /* Breadcrumbs (e.g., Overview) */
@@ -176,6 +220,7 @@ body {
   color: #ff4d4d !important;
   font-weight: 600;
   font-size: 0.85rem;
+  margin-bottom: 0.8rem;
 }
 
 .breadcrumbs__link {
@@ -184,16 +229,17 @@ body {
 
 /* Images & Banner */
 .markdown img {
-  border-radius: 8px;
+  border-radius: 10px;
   border: 1px solid #2d2222;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
-  margin: 1.2rem 0;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.5);
+  margin: 1.5rem 0;
 }
 
 /* Table of Contents Right Panel ("ON THIS PAGE") */
 .table-of-contents {
   border-left: 1px solid #241d1d;
-  padding-left: 1rem;
+  padding-left: 1.5rem;
+  padding-top: 2rem;
 }
 
 .table-of-contents__link {
