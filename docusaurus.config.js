@@ -3,7 +3,7 @@
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Kalvium × Vels Student Clubs',
+  title: 'Kalvium X Vels Student Clubs',
   tagline: 'Framework & Operations Guide',
   favicon: 'img/icon.png',
 
@@ -49,37 +49,21 @@ const config = {
       },
       image: 'img/banner.png',
       navbar: {
-        title: '',
+        title: 'Kalvium X Vels Student Clubs',
         logo: {
-          alt: 'Kalvium x Vels Student Clubs Logo',
-          src: 'img/logo.png',
+          alt: 'K',
+          src: 'img/icon.png',
         },
         items: [
           {
+            type: 'search',
+            position: 'left',
+          },
+          {
             type: 'docSidebar',
             sidebarId: 'handbookSidebar',
-            position: 'left',
-            label: 'Handbook',
-          },
-          {
-            to: '/club-ecosystem/2d-3d-club',
-            label: '2D & 3D Club',
-            position: 'left',
-          },
-          {
-            to: '/club-ecosystem/social-media-club',
-            label: 'Social Media',
-            position: 'left',
-          },
-          {
-            to: '/club-ecosystem/abstract-strategies-club',
-            label: 'Abstract Strategies',
-            position: 'left',
-          },
-          {
-            to: '/club-ecosystem/debate-public-speaking-club',
-            label: 'Debate & Public Speaking',
-            position: 'left',
+            position: 'right',
+            label: 'Overview',
           },
         ],
       },

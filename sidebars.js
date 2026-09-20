@@ -3,10 +3,14 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   handbookSidebar: [
-    'intro',
+    {
+      type: 'doc',
+      id: 'intro',
+      label: 'Welcome & Overview',
+    },
     {
       type: 'category',
-      label: '01: Introduction',
+      label: '01: INTRODUCTION',
       link: { type: 'doc', id: 'introduction/index' },
       collapsible: true,
       collapsed: false,
@@ -16,7 +20,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '02: Club Ecosystem',
+      label: '02: CLUB ECOSYSTEM',
       link: { type: 'doc', id: 'club-ecosystem/index' },
       collapsible: true,
       collapsed: false,
@@ -30,7 +34,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '03: Operations',
+      label: '03: OPERATIONS',
       link: { type: 'doc', id: 'operations/index' },
       collapsible: true,
       collapsed: false,
@@ -40,7 +44,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '04: Club Leadership',
+      label: '04: CLUB LEADERSHIP',
       link: { type: 'doc', id: 'club-leadership/index' },
       collapsible: true,
       collapsed: false,
@@ -51,7 +55,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '05: Membership & Lifecycle',
+      label: '05: MEMBERSHIP & LIFECYCLE',
       link: { type: 'doc', id: 'membership/index' },
       collapsible: true,
       collapsed: false,
@@ -62,7 +66,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '06: Mentorship',
+      label: '06: MENTORSHIP',
       link: { type: 'doc', id: 'mentorship/index' },
       collapsible: true,
       collapsed: false,
@@ -70,7 +74,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '07: Scheduling & Activities',
+      label: '07: SCHEDULING & ACTIVITIES',
       link: { type: 'doc', id: 'scheduling-activities/index' },
       collapsible: true,
       collapsed: false,
@@ -80,7 +84,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '08: Guidelines & Governance',
+      label: '08: GUIDELINES & GOVERNANCE',
       link: { type: 'doc', id: 'guidelines/index' },
       collapsible: true,
       collapsed: false,
@@ -88,7 +92,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '09: Documentation & Artifacts',
+      label: '09: DOCUMENTATION & ARTIFACTS',
       link: { type: 'doc', id: 'documentation/index' },
       collapsible: true,
       collapsed: false,
