@@ -1,11 +1,11 @@
-# 04 — Club Leadership
+# 04: Club Leadership
 
-Section 04 outlines the leadership structure, officer roles, election processes, and mandatory deliverables expected from student leaders governing each club.
+This section outlines officer roles, selection procedures, and deliverables expected from student leaders.
 
-## Pages in this Section
+## In This Section
 
-- [**Leadership Structure**](structure.md) — Overview of executive roles within individual clubs.
-- [**Presidents & Vice Presidents**](presidents-vp.md) — Detailed responsibilities for Club Presidents and VPs.
-- [**Club Coordinators**](coordinators.md) — Function and scope of specialized activity coordinators.
-- [**Selection & Succession Process**](selection-process.md) — Application criteria, screening, and election workflows.
-- [**Leadership Deliverables**](deliverables.md) — Mandatory artifacts, reports, and logs required from officers.
+- [Leadership Structure](structure.md): Roles within each club.
+- [Presidents & Vice Presidents](presidents-vp.md): Core responsibilities of executive officers.
+- [Club Coordinators](coordinators.md): Functional leads for specific activities.
+- [Selection & Succession Process](selection-process.md): How officers are selected.
+- [Leadership Deliverables](deliverables.md): Required reports and project plans.

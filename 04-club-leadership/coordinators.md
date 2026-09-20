@@ -1,16 +1,5 @@
 # Club Coordinators
 
-Club Coordinators are specialized student officers assigned to manage specific activity tracks, technical domains, or logistical requirements within a club.
+Club Coordinators assist executive officers by managing specific workshop activities or technical topics.
 
----
-
-## 🎯 Coordinator Functional Tracks
-
-- **Technical / Creative Coordinators**: Lead practical tutorial sessions (e.g., Figma UI masterclass in 2D & 3D Club, or Chess Tactics breakdown in Abstract Strategies Club).
-- **Logistics & Equipment Coordinators**: Manage physical hardware setup, board game setups, microphone testing, and room readiness.
-- **Media & Documentation Coordinators**: Capture session photos, log meeting minutes, and compile project build logs for the archive.
-
----
-
-## 🛠️ Key Obligations
-Coordinators work under the direct operational guidance of the Vice President and actively mentor junior members during hands-on Growth Hours sessions.
+For example, a coordinator in the 2D & 3D Club might run a tutorial on Figma component design, while a coordinator in the Abstract Strategies Club might organize a chess tournament bracket.

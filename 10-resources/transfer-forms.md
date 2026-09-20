@@ -1,14 +1,5 @@
 # Club Switching / Transfer Forms
 
-To execute a valid transfer during the [Club Switching Window](../05-membership/club-switching.md), students and leaders must complete the standard **Transfer Application Form**.
+Transfer applications require basic information: student ID, current club, confirmation of showcase completion, and target club selection.
 
----
-
-## 📝 Required Form Fields
-
-1. **Student Information**: Full Name, Student Registration ID, Current Batch/Year.
-2. **Current Club Details**: Current Club Name, Current Vice President Name.
-3. **Contribution Sign-off**: Verification of active participation and showcase completion in current cycle.
-4. **Exit Approval**: Digital signature / confirmation from current Club VP or President.
-5. **Prospective Club Details**: Target Club Name, Target Club President Name.
-6. **Capacity Sign-off**: Acceptance confirmation and capacity verification from target Club President.
+Transfers are processed during the official window between Showcase Day and the start of the next cycle.

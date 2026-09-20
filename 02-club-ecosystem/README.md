@@ -1,12 +1,12 @@
-# 02 — Club Ecosystem
+# 02: Club Ecosystem
 
-Section 02 detailedly explores the four active clubs that comprise the Kalvium × Vels Student Clubs ecosystem, their specific domains, activities, focus areas, and cross-club collaboration mechanisms.
+This section details the four active clubs, their core focus areas, and how clubs collaborate on joint projects.
 
-## Pages in this Section
+## In This Section
 
-- [**How Clubs Work**](how-clubs-work.md) — Operational principles and functional mechanics of individual clubs.
-- [**2D & 3D Club**](2d-3d-club.md) — Focus: Visual creativity, digital art, animation, game dev, and 3D modeling.
-- [**Social Media Club**](social-media-club.md) — Focus: Content creation, podcasts, video editing, and public media growth.
-- [**Abstract Strategies Club**](abstract-strategies-club.md) — Focus: Business strategy, chess, negotiation, and analytical thinking.
-- [**Debate & Public Speaking Club**](debate-public-speaking-club.md) — Focus: Public speaking, argumentation, pitching, and rhetoric.
-- [**Inter-Club Collaboration**](inter-club-collaboration.md) — Guidelines for executing joint projects across club boundaries.
+- [How Clubs Work](how-clubs-work.md): Monthly cycle overview and sprint expectations.
+- [2D & 3D Club](2d-3d-club.md): Visual creativity, design, animation, and 3D art.
+- [Social Media Club](social-media-club.md): Video editing, podcasting, and media strategy.
+- [Abstract Strategies Club](abstract-strategies-club.md): Strategy games, business teardowns, and negotiation.
+- [Debate & Public Speaking Club](debate-public-speaking-club.md): Public speaking, pitching, and structured debates.
+- [Inter-Club Collaboration](inter-club-collaboration.md): Rules for cross-club team projects.

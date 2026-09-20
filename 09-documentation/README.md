@@ -1,11 +1,11 @@
-# 09 — Documentation & Artifacts
+# 09: Documentation & Artifacts
 
-Section 09 covers project repositories, retrospective logs, meeting minutes, showcase archives, and public recognition platforms.
+This section outlines how project files, retrospective reports, and showcase outputs are documented and archived.
 
-## Pages in this Section
+## In This Section
 
-- [**Project Repositories & Build Logs**](projects.md) — Managing technical and creative project archives.
-- [**Monthly Retrospective Reports**](reports.md) — Process improvement and cycle reviews.
-- [**Meeting Records & Attendance**](meeting-records.md) — Record-keeping standards for VPs.
-- [**Showcase Archive**](showcase-archive.md) — Historical index of completed sprint deliverables.
-- [**Achievements & Wall of Fame**](achievements.md) — Recognizing outstanding student contributions.
+- [Project Repositories & Build Logs](projects.md): Storing completed project work.
+- [Monthly Retrospective Reports](reports.md): Post-sprint reviews.
+- [Meeting Records & Attendance](meeting-records.md): Archiving meeting logs and attendance.
+- [Showcase Archive](showcase-archive.md): Repository of past showcase deliverables.
+- [Achievements & Wall of Fame](achievements.md): Recognizing member contributions.

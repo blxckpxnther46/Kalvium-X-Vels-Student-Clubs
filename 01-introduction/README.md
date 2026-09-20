@@ -1,10 +1,10 @@
-# 01 — Introduction
+# 01: Introduction
 
-Welcome to Section 01 of the Kalvium × Vels Student Clubs documentation. This section introduces the foundational vision, core objectives, and student growth alignment behind the ecosystem.
+This section introduces the Kalvium x Vels Student Clubs, explaining how the ecosystem is organized and how it supports student development.
 
-## Pages in this Section
+## In This Section
 
-- [**Welcome to Student Clubs**](welcome.md) — Official welcome note to students, faculty, and leadership.
-- [**About the Ecosystem**](about.md) — Overview of the joint initiative, background, and operational scope.
-- [**Vision & Purpose**](vision-purpose.md) — Mission statement, core philosophy, and practical outcomes.
-- [**Student Growth Pillars**](growth-pillars.md) — Alignment with holistic skill development and career readiness.
+- [Welcome to Student Clubs](welcome.md): Introduction for new members and leaders.
+- [About the Ecosystem](about.md): Overview of the collaborative club structure.
+- [Vision & Purpose](vision-purpose.md): Core goals and student outcomes.
+- [Student Growth Pillars](growth-pillars.md): How club activities map to key skills.

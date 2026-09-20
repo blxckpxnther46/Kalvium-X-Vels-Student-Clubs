@@ -1,12 +1,12 @@
-# 03 — Operations
+# 03: Operations
 
-Section 03 defines the administrative, organizational, and technical foundation that keeps the Kalvium × Vels Student Clubs running smoothly across the academic year.
+This section explains how the central Operations Team coordinates the overall club ecosystem and interfaces with campus management.
 
-## Pages in this Section
+## In This Section
 
-- [**Student Club Operations Team**](operations-team.md) — Responsibilities and scope of the central coordinating body.
-- [**Operations Coordinators**](coordinators.md) — Role definition for Founding Members & Operations Coordinators.
-- [**Decision-Making Framework**](decision-framework.md) — Operational decision workflows and approval levels.
-- [**Campus & Management Coordination**](campus-coordination.md) — Interfacing with university administration and timetable authorities.
-- [**Enrollment & Roster Management**](enrollment-roster-management.md) — Maintaining active rosters and capacity limits.
-- [**Google Workspace Automation**](google-workspace-automation.md) — Technical scripts, form routing, and dashboard tracking.
+- [Student Club Operations Team](operations-team.md): Role and scope of the central operations group.
+- [Operations Coordinators](coordinators.md): Role of founding members and coordinators.
+- [Decision-Making Framework](decision-framework.md): How operational decisions are made.
+- [Campus & Management Coordination](campus-coordination.md): Facility access and academic alignment.
+- [Enrollment & Roster Management](enrollment-roster-management.md): Maintaining member rosters.
+- [Google Workspace Automation](google-workspace-automation.md): Brief overview of registration forms.

@@ -1,10 +1,10 @@
-# 06 — Mentorship
+# 06: Mentorship
 
-Section 06 defines the role of faculty and technical mentors, their strategic working model, guidance boundaries, and communication frameworks.
+This section defines the role of faculty mentors and how they support student leadership.
 
-## Pages in this Section
+## In This Section
 
-- [**Role of a Club Mentor**](role.md) — Strategic purpose of mentorship in the ecosystem.
-- [**Mentor Responsibilities**](responsibilities.md) — Core duties, milestone validation, and oversight.
-- [**Student–Mentor Working Model**](working-model.md) — Collaboration boundaries and check-in cadence.
-- [**Communication & Escalations**](communication.md) — Channels, meeting structures, and issue resolution.
+- [Role of a Club Mentor](role.md): Purpose of faculty mentorship.
+- [Mentor Responsibilities](responsibilities.md): Core duties and guidance boundaries.
+- [Student-Mentor Working Model](working-model.md): Meeting check-ins and review schedule.
+- [Communication & Escalations](communication.md): Handling issues and escalation steps.

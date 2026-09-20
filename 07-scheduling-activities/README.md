@@ -1,11 +1,11 @@
-# 07 — Scheduling & Activities
+# 07: Scheduling & Activities
 
-Section 07 details activity timings, Growth Hours, session cadences, sprint lifecycles, and Showcase Day execution.
+This section details Growth Hours, weekly session structures, sprint lifecycles, and Showcase Day.
 
-## Pages in this Section
+## In This Section
 
-- [**Growth Hours & Timings**](growth-hours.md) — Proposed operational schedule and academic disclaimers.
-- [**Session Cadence**](session-cadence.md) — Weekly session structures and time allocation.
-- [**Club Sprint Lifecycle**](sprint-lifecycle.md) — From kickoff to final artifact completion.
-- [**The Monthly Showcase Day**](showcase-day.md) — Event format, judging, and public publishing.
-- [**Events & Workshops**](events.md) — Organizing hackathons, guest talks, and competitions.
+- [Growth Hours & Timings](growth-hours.md): Session timing and schedule overview.
+- [Session Cadence](session-cadence.md): Typical 2-hour session structure.
+- [Club Sprint Lifecycle](sprint-lifecycle.md): 4-week project build map.
+- [The Monthly Showcase Day](showcase-day.md): Output presentations and cycle transitions.
+- [Events & Workshops](events.md): Special workshops and guest sessions.
