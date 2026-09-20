@@ -48,45 +48,9 @@ const config = {
         respectPrefersColorScheme: false,
       },
       image: 'img/banner.png',
+      // Header navbar completely removed as requested
       navbar: {
-        title: '',
-        logo: {
-          alt: 'Kalvium x Vels Student Clubs Logo',
-          src: 'img/logo.png',
-        },
-        items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'handbookSidebar',
-            position: 'left',
-            label: 'Handbook',
-          },
-          {
-            to: '/club-ecosystem/2d-3d-club',
-            label: '2D & 3D Club',
-            position: 'left',
-          },
-          {
-            to: '/club-ecosystem/social-media-club',
-            label: 'Social Media',
-            position: 'left',
-          },
-          {
-            to: '/club-ecosystem/abstract-strategies-club',
-            label: 'Abstract Strategies',
-            position: 'left',
-          },
-          {
-            to: '/club-ecosystem/debate-public-speaking-club',
-            label: 'Debate & Public Speaking',
-            position: 'left',
-          },
-          {
-            href: 'https://github.com/blxckpxnther46/Kalvium-X-Vels-Student-Clubs',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
+        items: [],
       },
       footer: {
         style: 'dark',

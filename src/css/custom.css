@@ -1,5 +1,6 @@
 /**
  * Modern Minimalist Black & Red Theme for Kalvium × Vels Student Clubs
+ * Header Navbar Completely Removed
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
@@ -12,6 +13,7 @@
   --ifm-color-scheme: dark;
   --ifm-background-color: #09090b;
   --ifm-background-surface-color: #121215;
+  --ifm-navbar-height: 0px !important;
   
   --ifm-color-primary: #e50914;
   --ifm-color-primary-dark: #cc0812;
@@ -26,7 +28,6 @@
   --ifm-link-color: #ff3b47;
   --ifm-link-hover-color: #ff6e74;
   --ifm-code-font-size: 90%;
-  --ifm-navbar-background-color: rgba(9, 9, 11, 0.9);
   --ifm-footer-background-color: #050507;
   --ifm-toc-border-color: #27272a;
 
@@ -38,6 +39,7 @@ html[data-theme='dark'], html[data-theme='light'] {
   --ifm-background-surface-color: #121215;
   --ifm-text-color: #f4f4f5;
   --ifm-heading-color: #ffffff;
+  --ifm-navbar-height: 0px !important;
 }
 
 body {
@@ -45,43 +47,21 @@ body {
   color: #f4f4f5;
 }
 
-/* Navbar Custom Styling */
-.navbar {
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  background: rgba(9, 9, 11, 0.85) !important;
-  border-bottom: 1px solid rgba(229, 9, 20, 0.25);
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
-  padding: 0.6rem 1.5rem;
+/* Completely Hide Header Navbar */
+.navbar, header.navbar, nav.navbar {
+  display: none !important;
+  height: 0 !important;
+  min-height: 0 !important;
+  visibility: hidden !important;
 }
 
-.navbar__logo img {
-  height: 32px;
-  width: auto;
-  border-radius: 4px;
-  transition: transform 0.2s ease, filter 0.2s ease;
-}
-
-.navbar__logo img:hover {
-  transform: scale(1.03);
-  filter: drop-shadow(0 0 10px rgba(229, 9, 20, 0.6));
-}
-
-.navbar__item {
-  font-weight: 500;
-  font-size: 0.92rem;
-  letter-spacing: -0.01em;
-  transition: color 0.2s ease;
-}
-
-.navbar__item:hover, .navbar__link--active {
-  color: #ff3b47 !important;
-}
-
-/* Sidebar Custom Styling */
+/* Sidebar Custom Styling - Full Height & Modern Layout */
 .theme-doc-sidebar-container {
   border-right: 1px solid rgba(255, 255, 255, 0.08) !important;
   background: #09090b !important;
+  top: 0 !important;
+  height: 100vh !important;
+  padding-top: 1rem;
 }
 
 .menu__link {
@@ -112,6 +92,14 @@ body {
 }
 
 /* Main Content Area */
+.main-wrapper {
+  padding-top: 0 !important;
+}
+
+main {
+  padding-top: 2rem !important;
+}
+
 .markdown h1 {
   font-size: 2.25rem;
   font-weight: 800;
