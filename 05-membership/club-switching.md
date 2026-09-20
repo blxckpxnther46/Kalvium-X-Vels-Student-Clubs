@@ -2,13 +2,8 @@
 
 Students can switch clubs to expand their skill set and experience different areas. However, a student cannot abandon an active club midway through its cycle.
 
-```mermaid
-flowchart LR
-    A[Join Club] --> B[Participate]
-    B --> C[Contribute]
-    C --> D[Showcase Day]
-    D --> E[Switching Window]
-    E --> F[Join New Club]
+```text
+[ Join Club ] ──► [ Active Participation ] ──► [ Cycle Contribution ] ──► [ Showcase Day ] ──► [ Transfer Window ] ──► [ Join New Club ]
 ```
 
 ## Step-by-Step Switching Sequence

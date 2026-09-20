@@ -6,7 +6,7 @@ const sidebars = {
     'intro',
     {
       type: 'category',
-      label: '01 — Introduction',
+      label: '01: Introduction',
       collapsible: true,
       collapsed: false,
       items: [
@@ -16,7 +16,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '02 — Club Ecosystem',
+      label: '02: Club Ecosystem',
       collapsible: true,
       collapsed: false,
       items: [
@@ -30,7 +30,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '03 — Operations',
+      label: '03: Operations',
       collapsible: true,
       collapsed: false,
       items: [
@@ -40,7 +40,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '04 — Club Leadership',
+      label: '04: Club Leadership',
       collapsible: true,
       collapsed: false,
       items: [
@@ -51,7 +51,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '05 — Membership & Lifecycle',
+      label: '05: Membership & Lifecycle',
       collapsible: true,
       collapsed: false,
       items: [
@@ -62,7 +62,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '06 — Mentorship',
+      label: '06: Mentorship',
       collapsible: true,
       collapsed: false,
       items: [
@@ -71,7 +71,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '07 — Scheduling & Activities',
+      label: '07: Scheduling & Activities',
       collapsible: true,
       collapsed: false,
       items: [
@@ -81,7 +81,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '08 — Guidelines & Governance',
+      label: '08: Guidelines & Governance',
       collapsible: true,
       collapsed: false,
       items: [
@@ -90,7 +90,7 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: '09 — Documentation & Artifacts',
+      label: '09: Documentation & Artifacts',
       collapsible: true,
       collapsed: false,
       items: [

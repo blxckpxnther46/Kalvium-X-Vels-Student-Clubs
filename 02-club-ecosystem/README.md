@@ -2,9 +2,17 @@
 
 The central framework sets the boundaries that make the ecosystem work consistently, while club leaders and members decide how their club operates within those boundaries.
 
-```mermaid
-flowchart TD
-    Ops[Operations Framework: Schedules, Cycles, Showcase] --> Club[Club Leadership & Members: Events, Projects, Culture]
+```text
++-----------------------------------------------------------------------+
+|                 Central Operations Team & Framework                   |
+|        Schedules • Monthly Cycles • One-Club Policy • Showcase        |
++-----------------------------------+-+---------------------------------+
+                                    |
+                                    v
++-----------------------------------------------------------------------+
+|                    Club Leadership & Active Members                   |
+|         Events • Project Builds • Workshops • Club Culture            |
++-----------------------------------------------------------------------+
 ```
 
 ## Diversity of Activities

@@ -11,7 +11,6 @@ const config = {
   url: 'http://localhost:3000',
   baseUrl: '/',
 
-  // GitHub pages deployment config (if deploying to gh-pages subpath)
   organizationName: 'blxckpxnther46',
   projectName: 'Kalvium-X-Vels-Student-Clubs',
   trailingSlash: false,
@@ -30,7 +29,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/', // Serve the docs at the site's root
+          routeBasePath: '/', // Serve docs at site root
         },
         blog: false,
         theme: {
@@ -43,6 +42,11 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      colorMode: {
+        defaultMode: 'dark',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
       image: 'img/banner.png',
       navbar: {
         title: '',
@@ -146,7 +150,7 @@ const config = {
         copyright: `Copyright © ${new Date().getFullYear()} Kalvium × Vels Student Clubs Ecosystem. Built with Docusaurus.`,
       },
       prism: {
-        theme: require('prism-react-renderer').themes.github,
+        theme: require('prism-react-renderer').themes.dracula,
         darkTheme: require('prism-react-renderer').themes.dracula,
       },
     }),

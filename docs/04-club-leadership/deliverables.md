@@ -4,13 +4,8 @@ While club leadership has full freedom over creative and activity choices, all l
 
 Understand -> Plan -> Execute -> Build -> Showcase -> Reflect
 
-```mermaid
-flowchart LR
-    A[Understand] --> B[Plan]
-    B --> C[Execute]
-    C --> D[Build]
-    D --> E[Showcase]
-    E --> F[Reflect]
+```text
+[ Understand ] ──► [ Plan ] ──► [ Execute ] ──► [ Build ] ──► [ Showcase ] ──► [ Reflect ]
 ```
 
 ## Understand

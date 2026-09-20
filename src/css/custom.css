@@ -1,37 +1,261 @@
 /**
- * Custom styles for Kalvium x Vels Student Clubs documentation
+ * Modern Minimalist Black & Red Theme for Kalvium × Vels Student Clubs
  */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
+
 :root {
-  --ifm-color-primary: #1d4ed8;
-  --ifm-color-primary-dark: #1e40af;
-  --ifm-color-primary-darker: #1e3a8a;
-  --ifm-color-primary-darkest: #172554;
-  --ifm-color-primary-light: #3b82f6;
-  --ifm-color-primary-lighter: #60a5fa;
-  --ifm-color-primary-lightest: #93c5fd;
-  --ifm-code-font-size: 95%;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --ifm-font-family-monospace: 'JetBrains Mono', monospace;
+
+  /* Force Dark / Black & Red Theme Variables */
+  --ifm-color-scheme: dark;
+  --ifm-background-color: #09090b;
+  --ifm-background-surface-color: #121215;
+  
+  --ifm-color-primary: #e50914;
+  --ifm-color-primary-dark: #cc0812;
+  --ifm-color-primary-darker: #b30710;
+  --ifm-color-primary-darkest: #80050b;
+  --ifm-color-primary-light: #ff1e29;
+  --ifm-color-primary-lighter: #ff3a43;
+  --ifm-color-primary-lightest: #ff6e74;
+
+  --ifm-text-color: #f4f4f5;
+  --ifm-heading-color: #ffffff;
+  --ifm-link-color: #ff3b47;
+  --ifm-link-hover-color: #ff6e74;
+  --ifm-code-font-size: 90%;
+  --ifm-navbar-background-color: rgba(9, 9, 11, 0.9);
+  --ifm-footer-background-color: #050507;
+  --ifm-toc-border-color: #27272a;
+
+  --docusaurus-highlighted-code-line-bg: rgba(229, 9, 20, 0.15);
 }
 
-[data-theme='dark'] {
-  --ifm-color-primary: #3b82f6;
-  --ifm-color-primary-dark: #2563eb;
-  --ifm-color-primary-darker: #1d4ed8;
-  --ifm-color-primary-darkest: #1e40af;
-  --ifm-color-primary-light: #60a5fa;
-  --ifm-color-primary-lighter: #93c5fd;
-  --ifm-color-primary-lightest: #bfdbfe;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+html[data-theme='dark'], html[data-theme='light'] {
+  --ifm-background-color: #09090b;
+  --ifm-background-surface-color: #121215;
+  --ifm-text-color: #f4f4f5;
+  --ifm-heading-color: #ffffff;
+}
+
+body {
+  background-color: #09090b;
+  color: #f4f4f5;
+}
+
+/* Navbar Custom Styling */
+.navbar {
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  background: rgba(9, 9, 11, 0.85) !important;
+  border-bottom: 1px solid rgba(229, 9, 20, 0.25);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6);
+  padding: 0.6rem 1.5rem;
 }
 
 .navbar__logo img {
-  height: 28px;
+  height: 32px;
   width: auto;
+  border-radius: 4px;
+  transition: transform 0.2s ease, filter 0.2s ease;
+}
+
+.navbar__logo img:hover {
+  transform: scale(1.03);
+  filter: drop-shadow(0 0 10px rgba(229, 9, 20, 0.6));
+}
+
+.navbar__item {
+  font-weight: 500;
+  font-size: 0.92rem;
+  letter-spacing: -0.01em;
+  transition: color 0.2s ease;
+}
+
+.navbar__item:hover, .navbar__link--active {
+  color: #ff3b47 !important;
+}
+
+/* Sidebar Custom Styling */
+.theme-doc-sidebar-container {
+  border-right: 1px solid rgba(255, 255, 255, 0.08) !important;
+  background: #09090b !important;
+}
+
+.menu__link {
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #a1a1aa;
+  transition: all 0.2s ease;
+}
+
+.menu__link:hover {
+  color: #ffffff;
+  background: rgba(229, 9, 20, 0.1);
+}
+
+.menu__link--active {
+  color: #ffffff !important;
+  background: rgba(229, 9, 20, 0.18) !important;
+  border-left: 3px solid #e50914 !important;
+  font-weight: 600;
+  box-shadow: 0 0 15px rgba(229, 9, 20, 0.15);
+}
+
+/* Category Headings */
+.menu__list-item-collapsible {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* Main Content Area */
+.markdown h1 {
+  font-size: 2.25rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: #ffffff;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid rgba(229, 9, 20, 0.2);
+}
+
+.markdown h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: #f4f4f5;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.markdown h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #e4e4e7;
+}
+
+/* Images & Media */
+.markdown img {
+  border-radius: 10px;
+  border: 1px solid rgba(229, 9, 20, 0.2);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.7);
+  transition: border-color 0.3s ease;
+}
+
+.markdown img:hover {
+  border-color: rgba(229, 9, 20, 0.6);
+}
+
+/* Code & Pre Blocks */
+code {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #ff6e74;
+  border-radius: 4px;
+  padding: 0.2em 0.4em;
+}
+
+pre code {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.prism-code {
+  background-color: #121215 !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+/* Admonitions / Callouts */
+.alert--info, .alert--note {
+  background-color: #121215;
+  border: 1px solid rgba(229, 9, 20, 0.4);
+  border-left: 4px solid #e50914;
+  color: #f4f4f5;
+  border-radius: 8px;
+}
+
+.alert--warning, .alert--danger {
+  background-color: #1a0a0c;
+  border: 1px solid rgba(239, 68, 68, 0.5);
+  border-left: 4px solid #ef4444;
+  color: #f4f4f5;
+  border-radius: 8px;
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #27272a;
+}
+
+table th {
+  background-color: #18181b;
+  color: #ffffff;
+  font-weight: 600;
+  border-bottom: 2px solid #e50914;
+  padding: 0.75rem 1rem;
+}
+
+table td {
+  padding: 0.75rem 1rem;
+  border-bottom: 1px solid #27272a;
+  background-color: #0f0f12;
+}
+
+table tr:nth-child(even) td {
+  background-color: #141418;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #09090b;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
   border-radius: 4px;
 }
 
-.markdown img {
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+::-webkit-scrollbar-thumb:hover {
+  background: #e50914;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #050507 !important;
+  border-top: 1px solid rgba(229, 9, 20, 0.2);
+  padding: 3rem 0;
+}
+
+.footer__title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1rem;
+  letter-spacing: -0.01em;
+  margin-bottom: 1rem;
+}
+
+.footer__link-item {
+  color: #a1a1aa;
+  transition: color 0.2s ease;
+}
+
+.footer__link-item:hover {
+  color: #ff3b47;
+  text-decoration: none;
 }
