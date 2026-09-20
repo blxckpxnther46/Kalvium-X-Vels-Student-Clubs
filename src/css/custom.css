@@ -1,6 +1,6 @@
 /**
  * Custom Premium Documentation UI - Kalvium × Vels Student Clubs
- * Clean Section Labels (No Big Box around Category Headers)
+ * Clean Gray Category Labels & Positioned Right TOC
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
@@ -185,44 +185,34 @@ html[data-theme='light'] .theme-doc-sidebar-container {
   box-shadow: none !important;
 }
 
-/* Category Section Headings (01: INTRODUCTION, etc.) - Clean Text Labels, NO Big Boxes! */
-.menu__list-item-collapsible {
-  margin-top: 1rem !important;
-}
-
+/* Section Category Headers (01: INTRODUCTION, etc.) - Pure Gray Text, NO Red Pill/Border EVER! */
+.menu__link--sublist,
 .menu__list-item-collapsible > .menu__link,
-.menu__list-item-collapsible > .menu__link--active {
+.menu__list-item-collapsible > .menu__link--active,
+.menu__list-item-collapsible > a.menu__link,
+.menu__list-item-collapsible > a.menu__link--active,
+.menu__link--sublist.menu__link--active {
   background: transparent !important;
   background-color: transparent !important;
   box-shadow: none !important;
   border: none !important;
   border-left: none !important;
   border-radius: 0 !important;
-  padding: 0.4rem 0.5rem 0.2rem 0.5rem !important;
+  color: var(--ifm-color-muted-text) !important;
   font-size: 11px !important;
   font-weight: 600 !important;
   letter-spacing: 0.08em !important;
   text-transform: uppercase !important;
-  color: var(--ifm-color-muted-text) !important;
+  padding: 0.5rem 0.5rem 0.25rem 0.5rem !important;
+  margin-top: 1rem !important;
 }
 
+.menu__link--sublist:hover,
 .menu__list-item-collapsible > .menu__link:hover,
 .menu__list-item-collapsible > .menu__link--active:hover {
   background: transparent !important;
   background-color: transparent !important;
   color: var(--ifm-heading-color) !important;
-}
-
-/* Category Collapse Arrow Icon */
-.menu__caret {
-  padding: 0.2rem !important;
-  margin-right: 0.2rem;
-  opacity: 0.7;
-}
-
-.menu__caret:hover {
-  background: transparent !important;
-  opacity: 1;
 }
 
 /* Non-Intrusive Ultra-Thin Sidebar Scrollbar */
@@ -354,11 +344,12 @@ div[class*='docItemContainer'],
   margin: 1.5rem 0;
 }
 
-/* Right "ON THIS PAGE" Table of Contents */
+/* Right "ON THIS PAGE" Table of Contents (Shifted Downward) */
 .table-of-contents {
   border-left: 1px solid var(--ifm-border-color);
   padding-left: 1.2rem;
-  padding-top: 2rem;
+  padding-top: 4.5rem !important;
+  margin-top: 1rem;
 }
 
 .table-of-contents__link {
