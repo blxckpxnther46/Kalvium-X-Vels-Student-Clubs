@@ -3,7 +3,7 @@
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Kalvium X Vels Student Clubs',
+  title: 'Kalvium × Vels Student Clubs',
   tagline: 'Framework & Operations Guide',
   favicon: 'img/icon.png',
 
@@ -44,14 +44,14 @@ const config = {
     ({
       colorMode: {
         defaultMode: 'dark',
-        disableSwitch: true,
+        disableSwitch: false,
         respectPrefersColorScheme: false,
       },
       image: 'img/banner.png',
       navbar: {
-        title: 'Kalvium X Vels Student Clubs',
+        title: 'Kalvium × Vels Student Clubs',
         logo: {
-          alt: 'K',
+          alt: 'Kalvium Logo',
           src: 'img/icon.png',
         },
         items: [

@@ -1,48 +1,82 @@
 /**
- * GitBook Dark Red Matte Theme
- * Generous Sidebar & Content Separation Spacing
+ * Custom Premium Documentation UI - Kalvium × Vels Student Clubs
+ * Dark-first design system inspired by Linear/Vercel with Kalvium Red branding
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
 
 :root {
-  --ifm-font-family-base: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --ifm-font-family-monospace: 'JetBrains Mono', monospace;
 
-  /* GitBook Dark Matte Palette */
+  /* Dark Theme Color System */
   --ifm-color-scheme: dark;
-  --ifm-background-color: #161313;
-  --ifm-background-surface-color: #1c1818;
-  
-  --ifm-color-primary: #ff4d4d;
-  --ifm-color-primary-dark: #e63939;
-  --ifm-color-primary-darker: #cc2929;
-  --ifm-color-primary-darkest: #991f1f;
-  --ifm-color-primary-light: #ff6666;
-  --ifm-color-primary-lighter: #ff8080;
-  --ifm-color-primary-lightest: #ffa8a8;
+  --ifm-background-color: #0B0B0C;
+  --ifm-background-surface-color: #111113;
+  --ifm-color-surface-secondary: #151517;
 
-  --ifm-text-color: #d8cccc;
-  --ifm-heading-color: #ffffff;
-  --ifm-link-color: #ff4d4d;
-  --ifm-link-hover-color: #ff8080;
-  --ifm-code-font-size: 90%;
-  --ifm-navbar-background-color: #191515;
-  --ifm-toc-border-color: #282020;
+  --ifm-color-primary: #FF3030;
+  --ifm-color-primary-dark: #E52424;
+  --ifm-color-primary-darker: #CC1F1F;
+  --ifm-color-primary-darkest: #991717;
+  --ifm-color-primary-light: #FF5252;
+  --ifm-color-primary-lighter: #FF7070;
+  --ifm-color-primary-lightest: #FFA8A8;
 
-  --docusaurus-highlighted-code-line-bg: rgba(255, 77, 77, 0.15);
+  --ifm-text-color: #F5F5F5;
+  --ifm-heading-color: #FFFFFF;
+  --ifm-color-secondary-text: #A1A1AA;
+  --ifm-color-muted-text: #71717A;
+
+  --ifm-link-color: #FF3030;
+  --ifm-link-hover-color: #FF7070;
+  --ifm-border-color: rgba(255, 255, 255, 0.08);
+  --ifm-hover-border-color: rgba(255, 48, 48, 0.25);
+
+  --ifm-navbar-background-color: #0F0F10;
+  --ifm-navbar-height: 60px;
+  --ifm-toc-border-color: rgba(255, 255, 255, 0.08);
+
+  --docusaurus-highlighted-code-line-bg: rgba(255, 48, 48, 0.15);
 }
 
-html[data-theme='dark'], html[data-theme='light'] {
-  --ifm-background-color: #161313;
-  --ifm-background-surface-color: #1c1818;
-  --ifm-text-color: #d8cccc;
-  --ifm-heading-color: #ffffff;
+/* Light Mode Equivalent */
+html[data-theme='light'] {
+  --ifm-color-scheme: light;
+  --ifm-background-color: #FAFAFA;
+  --ifm-background-surface-color: #FFFFFF;
+  --ifm-color-surface-secondary: #F4F4F5;
+
+  --ifm-color-primary: #E52424;
+  --ifm-color-primary-dark: #CC1F1F;
+  --ifm-color-primary-darker: #B31B1B;
+  --ifm-color-primary-darkest: #801313;
+  --ifm-color-primary-light: #FF4A4A;
+  --ifm-color-primary-lighter: #FF6E6E;
+  --ifm-color-primary-lightest: #FFA8A8;
+
+  --ifm-text-color: #18181B;
+  --ifm-heading-color: #09090B;
+  --ifm-color-secondary-text: #52525B;
+  --ifm-color-muted-text: #71717A;
+
+  --ifm-link-color: #E52424;
+  --ifm-link-hover-color: #FF4A4A;
+  --ifm-border-color: rgba(0, 0, 0, 0.08);
+  --ifm-hover-border-color: rgba(229, 36, 36, 0.25);
+
+  --ifm-navbar-background-color: #FFFFFF;
+  --ifm-toc-border-color: rgba(0, 0, 0, 0.08);
 }
 
 body {
-  background-color: #161313;
-  color: #d8cccc;
+  background-color: var(--ifm-background-color);
+  color: var(--ifm-text-color);
+}
+
+html[data-theme='dark'] body {
+  background-image: radial-gradient(circle at 20% 0%, rgba(255, 48, 48, 0.06), transparent 30%);
+  background-attachment: fixed;
 }
 
 /* Hide Footer Completely */
@@ -50,124 +84,147 @@ body {
   display: none !important;
 }
 
-/* GitBook Style Header Navbar */
+/* Redesigned Navbar (56-64px height, dark background, subtle bottom border) */
 .navbar {
-  background: #191515 !important;
-  border-bottom: 1px solid #2a2020;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
-  padding: 0.6rem 2rem;
+  height: 60px;
+  min-height: 60px;
+  background: var(--ifm-navbar-background-color) !important;
+  border-bottom: 1px solid var(--ifm-border-color);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  padding: 0 1.8rem;
 }
 
 .navbar__logo {
-  margin-right: 0.8rem;
+  margin-right: 0.75rem;
 }
 
 .navbar__logo img {
-  height: 28px;
-  width: 28px;
-  border-radius: 6px;
+  height: 24px;
+  width: 24px;
+  border-radius: 4px;
   object-fit: cover;
 }
 
 .navbar__title {
-  font-weight: 700;
-  font-size: 1.05rem;
-  color: #ffffff;
+  font-weight: 650;
+  font-size: 0.95rem;
+  color: var(--ifm-heading-color);
   letter-spacing: -0.01em;
 }
 
-/* Navbar Search Input Pill */
+/* Active Right Navbar Overview Item */
+.navbar__item {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: var(--ifm-color-secondary-text);
+  transition: color 180ms ease;
+}
+
+.navbar__item:hover, .navbar__link--active {
+  color: var(--ifm-color-primary) !important;
+}
+
+/* Navbar Search Input */
 .navbar__search-input {
-  background: #241d1d !important;
-  border: 1px solid #382c2c !important;
+  background: var(--ifm-background-surface-color) !important;
+  border: 1px solid var(--ifm-border-color) !important;
   border-radius: 8px !important;
-  color: #c0b0b0 !important;
-  font-size: 0.88rem;
-  padding-left: 2.2rem !important;
-  height: 36px;
-  width: 260px !important;
-  transition: all 0.2s ease;
+  color: var(--ifm-color-secondary-text) !important;
+  font-size: 0.85rem;
+  height: 34px;
+  width: 240px !important;
+  transition: all 180ms ease;
 }
 
 .navbar__search-input:focus {
-  border-color: #ff4d4d !important;
-  box-shadow: 0 0 10px rgba(255, 77, 77, 0.25) !important;
+  border-color: var(--ifm-color-primary) !important;
+  box-shadow: 0 0 8px rgba(255, 48, 48, 0.2) !important;
 }
 
-/* GitBook Left Sidebar with Right Margin Gap */
+/* Redesigned Premium Documentation Sidebar */
 .theme-doc-sidebar-container {
-  border-right: 1px solid #241d1d !important;
-  background: #161313 !important;
+  border-right: 1px solid var(--ifm-border-color) !important;
+  background: #0D0D0E !important;
+}
+
+html[data-theme='light'] .theme-doc-sidebar-container {
+  background: #F4F4F5 !important;
 }
 
 .menu {
-  padding: 1.2rem 1rem !important;
+  padding: 1rem 0.75rem !important;
 }
 
 .menu__link {
-  border-radius: 8px;
-  font-size: 0.9rem;
+  border-radius: 6px;
+  font-size: 14px;
   font-weight: 500;
-  color: #b0a0a0;
-  padding: 0.5rem 0.82rem;
-  margin-bottom: 3px;
-  transition: all 0.15s ease;
+  color: var(--ifm-color-secondary-text);
+  padding: 0.45rem 0.75rem;
+  margin-bottom: 2px;
+  transition: all 180ms ease;
 }
 
 .menu__link:hover {
-  color: #ffffff;
-  background: #241a1a;
+  color: var(--ifm-heading-color);
+  background: rgba(255, 255, 255, 0.04);
 }
 
-/* Active Menu Item Pill */
+/* Active Sidebar Item: Thin 2-3px Red Vertical Left Indicator + Translucent Background */
 .menu__link--active {
-  color: #ff5252 !important;
-  background: #361718 !important;
+  color: #FF4A4A !important;
+  background: rgba(255, 48, 48, 0.09) !important;
+  border-left: 3px solid #FF3030 !important;
+  border-radius: 0 6px 6px 0 !important;
   font-weight: 600;
-  border-left: none !important;
-  border-radius: 8px !important;
 }
 
-/* Category Headings in Sidebar (01: INTRODUCTION, etc.) */
+/* Sidebar Section Headings (01: INTRODUCTION, 02: CLUB ECOSYSTEM, etc.) */
 .menu__list-item-collapsible .menu__link {
-  font-size: 0.78rem;
-  font-weight: 700;
-  letter-spacing: 0.06em;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #8c7a7a !important;
-  margin-top: 1rem;
+  color: var(--ifm-color-muted-text) !important;
+  margin-top: 1.2rem;
   margin-bottom: 0.3rem;
   padding-left: 0.5rem;
+  border-left: none !important;
+  background: transparent !important;
 }
 
 .menu__list-item-collapsible .menu__link:hover {
-  background: transparent;
-  color: #ffffff !important;
+  background: transparent !important;
+  color: var(--ifm-heading-color) !important;
 }
 
-/* Wide Separation Gap Between Sidebar and Main Content */
+/* Non-Intrusive Ultra-Thin Sidebar Scrollbar */
+.theme-doc-sidebar-container ::-webkit-scrollbar {
+  width: 5px;
+}
+
+.theme-doc-sidebar-container ::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.theme-doc-sidebar-container ::-webkit-scrollbar-thumb {
+  background: #27272A;
+  border-radius: 3px;
+}
+
+/* Content Container & Maximum Reading Width */
 .docMainContainer,
 main[class*='docMainContainer'] {
-  padding-left: 4.5rem !important;
-  padding-right: 3.5rem !important;
+  padding-left: 3.5rem !important;
+  padding-right: 3rem !important;
 }
 
 div[class*='docItemContainer'],
 .docItemContainer {
-  max-width: 880px !important;
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
+  max-width: 1050px !important;
   padding-top: 2rem !important;
   padding-bottom: 4rem !important;
   margin: 0 auto !important;
-}
-
-@media (max-width: 1200px) {
-  .docMainContainer,
-  main[class*='docMainContainer'] {
-    padding-left: 2.5rem !important;
-    padding-right: 2rem !important;
-  }
 }
 
 @media (max-width: 996px) {
@@ -178,17 +235,17 @@ div[class*='docItemContainer'],
   }
   div[class*='docItemContainer'],
   .docItemContainer {
+    padding-top: 1.5rem !important;
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
-    padding-top: 1.5rem !important;
   }
 }
 
-/* Markdown Content Styling */
+/* Typography Hierarchy */
 .markdown {
-  font-size: 1.02rem;
+  font-size: 16px;
   line-height: 1.75;
-  color: #d8cccc;
+  color: var(--ifm-text-color);
 }
 
 .markdown p {
@@ -196,111 +253,197 @@ div[class*='docItemContainer'],
 }
 
 .markdown h1 {
-  font-size: 2.35rem;
+  font-size: 48px;
   font-weight: 700;
-  letter-spacing: -0.02em;
-  color: #ffffff;
-  margin-top: 0.5rem;
-  margin-bottom: 1.8rem;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  color: var(--ifm-heading-color);
+  margin-top: 0.4rem;
+  margin-bottom: 1.6rem;
   border-bottom: none;
 }
 
+@media (max-width: 996px) {
+  .markdown h1 {
+    font-size: 32px;
+  }
+}
+
 .markdown h2 {
-  font-size: 1.55rem;
-  font-weight: 700;
-  color: #ffffff;
-  margin-top: 2.4rem;
-  margin-bottom: 1.1rem;
+  font-size: 30px;
+  font-weight: 680;
+  letter-spacing: -0.015em;
+  color: var(--ifm-heading-color);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .markdown h3 {
-  font-size: 1.22rem;
+  font-size: 22px;
   font-weight: 600;
-  color: #f0e6e6;
+  color: var(--ifm-heading-color);
   margin-top: 1.8rem;
   margin-bottom: 0.8rem;
 }
 
 .markdown ul, .markdown ol {
   margin-bottom: 1.5rem;
-  padding-left: 1.6rem;
+  padding-left: 1.5rem;
 }
 
 .markdown li {
-  margin-bottom: 0.55rem;
+  margin-bottom: 0.5rem;
 }
 
-/* Breadcrumbs (e.g., Overview) */
+/* Minimal Breadcrumbs */
 .breadcrumbs {
-  margin-bottom: 1.5rem !important;
+  margin-bottom: 1.2rem !important;
   padding-left: 0 !important;
 }
 
 .breadcrumbs__item--active .breadcrumbs__link,
 .theme-doc-breadcrumbs {
-  color: #ff4d4d !important;
+  color: var(--ifm-color-primary) !important;
   font-weight: 600;
-  font-size: 0.85rem;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 .breadcrumbs__link {
-  color: #ff4d4d;
+  color: var(--ifm-color-muted-text);
+  font-size: 12px;
+  font-weight: 500;
 }
 
-/* Images & Banner */
+/* Hero / Banner Images inside Documentation */
 .markdown img {
-  border-radius: 10px;
-  border: 1px solid #2d2222;
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.5);
+  border-radius: 16px;
+  border: 1px solid var(--ifm-border-color);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  max-height: 380px;
+  width: 100%;
+  object-fit: cover;
   margin: 1.5rem 0;
-  max-width: 100%;
 }
 
-/* Table of Contents Right Panel ("ON THIS PAGE") */
+/* Right "ON THIS PAGE" Table of Contents */
 .table-of-contents {
-  border-left: 1px solid #241d1d;
-  padding-left: 1.5rem;
+  border-left: 1px solid var(--ifm-border-color);
+  padding-left: 1.2rem;
   padding-top: 2rem;
 }
 
 .table-of-contents__link {
-  color: #a09090;
-  font-size: 0.86rem;
+  color: var(--ifm-color-secondary-text);
+  font-size: 13px;
   font-weight: 500;
-  transition: color 0.15s ease;
+  transition: color 180ms ease;
 }
 
 .table-of-contents__link:hover {
-  color: #ffffff;
+  color: var(--ifm-heading-color);
   text-decoration: none;
 }
 
-/* Active Item in TOC Pill */
+/* Active TOC Item Indicator */
 .table-of-contents__link--active {
-  color: #ff5252 !important;
-  background: #361718;
-  padding: 0.35rem 0.75rem;
-  border-radius: 6px;
+  color: var(--ifm-color-primary) !important;
   font-weight: 600;
-  display: inline-block;
+  border-left: 2px solid var(--ifm-color-primary);
+  padding-left: 8px;
+  margin-left: -1.2rem;
+}
+
+/* Cards & Callout Containers */
+.alert--info, .alert--note, .alert {
+  background: var(--ifm-background-surface-color);
+  border: 1px solid var(--ifm-border-color);
+  border-left: 4px solid var(--ifm-color-primary);
+  color: var(--ifm-text-color);
+  border-radius: 12px;
+  padding: 18px 24px;
+  margin: 1.5rem 0;
+}
+
+.alert--warning, .alert--danger {
+  background: var(--ifm-color-surface-secondary);
+  border: 1px solid var(--ifm-hover-border-color);
+  border-left: 4px solid #E52424;
+  color: var(--ifm-text-color);
+  border-radius: 12px;
+  padding: 18px 24px;
+  margin: 1.5rem 0;
+}
+
+/* Table Styling */
+table {
   width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 1.8rem 0;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--ifm-border-color);
+  background: var(--ifm-background-surface-color);
 }
 
-/* Custom Red Scrollbar */
-::-webkit-scrollbar {
-  width: 8px;
-  height: 8px;
+table th {
+  background: var(--ifm-color-surface-secondary);
+  color: var(--ifm-heading-color);
+  font-weight: 600;
+  border-bottom: 2px solid var(--ifm-color-primary);
+  padding: 0.85rem 1.2rem;
 }
 
-::-webkit-scrollbar-track {
-  background: #161313;
+table td {
+  padding: 0.85rem 1.2rem;
+  border-bottom: 1px solid var(--ifm-border-color);
+  background: var(--ifm-background-surface-color);
 }
 
-::-webkit-scrollbar-thumb {
-  background: #282020;
-  border-radius: 4px;
+/* Code Blocks */
+code {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--ifm-border-color);
+  color: var(--ifm-color-primary);
+  border-radius: 5px;
+  padding: 0.2em 0.45em;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: #ff4d4d;
+pre code {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.prism-code {
+  background: var(--ifm-background-surface-color) !important;
+  border: 1px solid var(--ifm-border-color);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+/* Primary Button Styling */
+.button--primary {
+  background-color: var(--ifm-color-primary) !important;
+  border-color: var(--ifm-color-primary) !important;
+  color: #FFFFFF !important;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 180ms ease;
+}
+
+.button--primary:hover {
+  background-color: var(--ifm-color-primary-light) !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 15px rgba(255, 48, 48, 0.3);
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }
