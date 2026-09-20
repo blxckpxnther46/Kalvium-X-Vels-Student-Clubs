@@ -15,6 +15,7 @@ const sidebars = {
       collapsible: true,
       collapsed: false,
       items: [
+        { type: 'doc', id: 'introduction/index', label: 'Welcome & Ecosystem Overview' },
         'introduction/growth-pillars',
       ],
     },
@@ -25,6 +26,7 @@ const sidebars = {
       collapsible: true,
       collapsed: false,
       items: [
+        { type: 'doc', id: 'club-ecosystem/index', label: 'Framework & Club Autonomy' },
         'club-ecosystem/2d-3d-club',
         'club-ecosystem/social-media-club',
         'club-ecosystem/abstract-strategies-club',
@@ -39,6 +41,7 @@ const sidebars = {
       collapsible: true,
       collapsed: false,
       items: [
+        { type: 'doc', id: 'operations/index', label: 'Student Club Operations Team' },
         'operations/campus-coordination',
       ],
     },
@@ -49,6 +52,7 @@ const sidebars = {
       collapsible: true,
       collapsed: false,
       items: [
+        { type: 'doc', id: 'club-leadership/index', label: 'Leadership Structure & Roles' },
         'club-leadership/deliverables',
         'club-leadership/reporting',
       ],
@@ -60,6 +64,7 @@ const sidebars = {
       collapsible: true,
       collapsed: false,
       items: [
+        { type: 'doc', id: 'membership/index', label: 'Joining & Member Expectations' },
         'membership/club-cycles',
         'membership/club-switching',
       ],
@@ -70,7 +75,9 @@ const sidebars = {
       link: { type: 'doc', id: 'mentorship/index' },
       collapsible: true,
       collapsed: false,
-      items: [],
+      items: [
+        { type: 'doc', id: 'mentorship/index', label: 'Faculty Mentorship & Support Model' },
+      ],
     },
     {
       type: 'category',
@@ -79,6 +86,7 @@ const sidebars = {
       collapsible: true,
       collapsed: false,
       items: [
+        { type: 'doc', id: 'scheduling-activities/index', label: 'Growth Hours & Club Activities' },
         'scheduling-activities/showcase-day',
       ],
     },
@@ -88,7 +96,9 @@ const sidebars = {
       link: { type: 'doc', id: 'guidelines/index' },
       collapsible: true,
       collapsed: false,
-      items: [],
+      items: [
+        { type: 'doc', id: 'guidelines/index', label: 'Code of Conduct & Governance Guidelines' },
+      ],
     },
     {
       type: 'category',
@@ -96,7 +106,9 @@ const sidebars = {
       link: { type: 'doc', id: 'documentation/index' },
       collapsible: true,
       collapsed: false,
-      items: [],
+      items: [
+        { type: 'doc', id: 'documentation/index', label: 'Project Documentation & Archives' },
+      ],
     },
   ],
 };
