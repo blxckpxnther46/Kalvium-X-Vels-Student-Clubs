@@ -1,0 +1,71 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+site:
+  title: Kalvium × Vels Student Clubs
+  structure:
+    - type: space
+      key: space-overview
+      title: Overview
+      path: overview
+      default: true
+      content:
+        directory: .
+    - type: space
+      key: space-introduction
+      title: Introduction
+      path: introduction
+      content:
+        directory: ./01-introduction
+    - type: space
+      key: space-club-ecosystem
+      title: Club Ecosystem
+      path: club-ecosystem
+      content:
+        directory: ./02-club-ecosystem
+    - type: space
+      key: space-operations
+      title: Operations
+      path: operations
+      content:
+        directory: ./03-operations
+    - type: space
+      key: space-club-leadership
+      title: Club Leadership
+      path: club-leadership
+      content:
+        directory: ./04-club-leadership
+    - type: space
+      key: space-membership
+      title: Membership & Lifecycle
+      path: membership
+      content:
+        directory: ./05-membership
+    - type: space
+      key: space-mentorship
+      title: Mentorship
+      path: mentorship
+      content:
+        directory: ./06-mentorship
+    - type: space
+      key: space-scheduling-activities
+      title: Scheduling & Activities
+      path: scheduling-activities
+      content:
+        directory: ./07-scheduling-activities
+    - type: space
+      key: space-guidelines
+      title: Guidelines & Governance
+      path: guidelines
+      content:
+        directory: ./08-guidelines
+    - type: space
+      key: space-documentation
+      title: Documentation & Artifacts
+      path: documentation
+      content:
+        directory: ./09-documentation
+    - type: space
+      key: space-resources
+      title: Resources & Templates
+      path: resources
+      content:
+        directory: ./10-resources
