@@ -1,6 +1,6 @@
 /**
  * Custom Premium Documentation UI - Kalvium × Vels Student Clubs
- * Dark-first design system inspired by Linear/Vercel with Kalvium Red branding
+ * Clean Section Labels (No Big Box around Category Headers)
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
@@ -155,6 +155,10 @@ html[data-theme='light'] .theme-doc-sidebar-container {
   padding: 1rem 0.75rem !important;
 }
 
+.menu__list {
+  padding-left: 0 !important;
+}
+
 .menu__link {
   border-radius: 6px;
   font-size: 14px;
@@ -170,32 +174,55 @@ html[data-theme='light'] .theme-doc-sidebar-container {
   background: rgba(255, 255, 255, 0.04);
 }
 
-/* Active Sidebar Item: Thin 2-3px Red Vertical Left Indicator + Translucent Background */
-.menu__link--active {
+/* Active Page Sub-Item: 2-3px Thin Red Vertical Left Indicator + Translucent Background */
+.menu__list-item:not(.menu__list-item-collapsible) .menu__link--active,
+.menu__link--active:not(.menu__link--sublist) {
   color: #FF4A4A !important;
   background: rgba(255, 48, 48, 0.09) !important;
   border-left: 3px solid #FF3030 !important;
   border-radius: 0 6px 6px 0 !important;
   font-weight: 600;
+  box-shadow: none !important;
 }
 
-/* Sidebar Section Headings (01: INTRODUCTION, 02: CLUB ECOSYSTEM, etc.) */
-.menu__list-item-collapsible .menu__link {
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--ifm-color-muted-text) !important;
-  margin-top: 1.2rem;
-  margin-bottom: 0.3rem;
-  padding-left: 0.5rem;
+/* Category Section Headings (01: INTRODUCTION, etc.) - Clean Text Labels, NO Big Boxes! */
+.menu__list-item-collapsible {
+  margin-top: 1rem !important;
+}
+
+.menu__list-item-collapsible > .menu__link,
+.menu__list-item-collapsible > .menu__link--active {
+  background: transparent !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  border: none !important;
   border-left: none !important;
-  background: transparent !important;
+  border-radius: 0 !important;
+  padding: 0.4rem 0.5rem 0.2rem 0.5rem !important;
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.08em !important;
+  text-transform: uppercase !important;
+  color: var(--ifm-color-muted-text) !important;
 }
 
-.menu__list-item-collapsible .menu__link:hover {
+.menu__list-item-collapsible > .menu__link:hover,
+.menu__list-item-collapsible > .menu__link--active:hover {
   background: transparent !important;
+  background-color: transparent !important;
   color: var(--ifm-heading-color) !important;
+}
+
+/* Category Collapse Arrow Icon */
+.menu__caret {
+  padding: 0.2rem !important;
+  margin-right: 0.2rem;
+  opacity: 0.7;
+}
+
+.menu__caret:hover {
+  background: transparent !important;
+  opacity: 1;
 }
 
 /* Non-Intrusive Ultra-Thin Sidebar Scrollbar */
@@ -215,7 +242,7 @@ html[data-theme='light'] .theme-doc-sidebar-container {
 /* Content Container & Maximum Reading Width */
 .docMainContainer,
 main[class*='docMainContainer'] {
-  padding-left: 3.5rem !important;
+  padding-left: 4.5rem !important;
   padding-right: 3rem !important;
 }
 
