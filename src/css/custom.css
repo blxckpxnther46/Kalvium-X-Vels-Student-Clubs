@@ -1,6 +1,6 @@
 /**
  * Custom Premium Documentation UI - Kalvium × Vels Student Clubs
- * Clean Gray Category Labels & Positioned Right TOC
+ * Category Box & Downward Shifted Right TOC Line Fixes
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
@@ -174,45 +174,47 @@ html[data-theme='light'] .theme-doc-sidebar-container {
   background: rgba(255, 255, 255, 0.04);
 }
 
-/* Active Page Sub-Item: 2-3px Thin Red Vertical Left Indicator + Translucent Background */
+/* Category Section Headings (01: INTRODUCTION, etc.) - Small Compact Gray Box, NO RED PILL OR RED LINE EVER! */
+.menu__link--sublist,
+.menu__list-item-collapsible > div > .menu__link,
+.menu__list-item-collapsible .menu__link--sublist {
+  border-left: none !important;
+  box-shadow: none !important;
+  font-size: 11px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.06em !important;
+  text-transform: uppercase !important;
+  margin-top: 0.8rem !important;
+  margin-bottom: 0.3rem !important;
+  padding: 0.35rem 0.65rem !important;
+  border-radius: 6px !important;
+  background: #181414 !important;
+  color: #8c7a7a !important;
+}
+
+.menu__link--sublist:hover,
+.menu__list-item-collapsible .menu__link--sublist:hover {
+  background: #201a1a !important;
+  color: #ffffff !important;
+}
+
+/* Ensure Active Category Header Remains Gray (No Red Left Indicator / No Red Text) */
+.menu__link--sublist.menu__link--active,
+.menu__list-item-collapsible .menu__link--active {
+  border-left: none !important;
+  box-shadow: none !important;
+  color: #a1a1aa !important;
+  background: #221c1c !important;
+}
+
+/* Active Page Sub-Item ONLY (e.g. Framework & Club Autonomy) gets Red Left Line & Translucent Red Pill */
 .menu__list-item:not(.menu__list-item-collapsible) .menu__link--active,
 .menu__link--active:not(.menu__link--sublist) {
   color: #FF4A4A !important;
   background: rgba(255, 48, 48, 0.09) !important;
   border-left: 3px solid #FF3030 !important;
   border-radius: 0 6px 6px 0 !important;
-  font-weight: 600;
-  box-shadow: none !important;
-}
-
-/* Section Category Headers (01: INTRODUCTION, etc.) - Pure Gray Text, NO Red Pill/Border EVER! */
-.menu__link--sublist,
-.menu__list-item-collapsible > .menu__link,
-.menu__list-item-collapsible > .menu__link--active,
-.menu__list-item-collapsible > a.menu__link,
-.menu__list-item-collapsible > a.menu__link--active,
-.menu__link--sublist.menu__link--active {
-  background: transparent !important;
-  background-color: transparent !important;
-  box-shadow: none !important;
-  border: none !important;
-  border-left: none !important;
-  border-radius: 0 !important;
-  color: var(--ifm-color-muted-text) !important;
-  font-size: 11px !important;
   font-weight: 600 !important;
-  letter-spacing: 0.08em !important;
-  text-transform: uppercase !important;
-  padding: 0.5rem 0.5rem 0.25rem 0.5rem !important;
-  margin-top: 1rem !important;
-}
-
-.menu__link--sublist:hover,
-.menu__list-item-collapsible > .menu__link:hover,
-.menu__list-item-collapsible > .menu__link--active:hover {
-  background: transparent !important;
-  background-color: transparent !important;
-  color: var(--ifm-heading-color) !important;
 }
 
 /* Non-Intrusive Ultra-Thin Sidebar Scrollbar */
@@ -258,7 +260,7 @@ div[class*='docItemContainer'],
   }
 }
 
-/* Typography Hierarchy */
+/* Markdown Content Styling */
 .markdown {
   font-size: 16px;
   line-height: 1.75;
@@ -344,12 +346,12 @@ div[class*='docItemContainer'],
   margin: 1.5rem 0;
 }
 
-/* Right "ON THIS PAGE" Table of Contents (Shifted Downward) */
+/* Right "ON THIS PAGE" Table of Contents (Container & Border Line Shifted Downward) */
 .table-of-contents {
   border-left: 1px solid var(--ifm-border-color);
   padding-left: 1.2rem;
-  padding-top: 4.5rem !important;
-  margin-top: 1rem;
+  margin-top: 3.5rem !important;
+  padding-top: 0.5rem !important;
 }
 
 .table-of-contents__link {
