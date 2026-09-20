@@ -48,70 +48,40 @@ const config = {
         respectPrefersColorScheme: false,
       },
       image: 'img/banner.png',
-      // Header navbar completely removed as requested
       navbar: {
-        items: [],
-      },
-      footer: {
-        style: 'dark',
-        links: [
+        title: '',
+        logo: {
+          alt: 'Kalvium x Vels Student Clubs Logo',
+          src: 'img/logo.png',
+        },
+        items: [
           {
-            title: 'Handbook',
-            items: [
-              {
-                label: 'Welcome & Overview',
-                to: '/',
-              },
-              {
-                label: 'Club Ecosystem',
-                to: '/club-ecosystem/',
-              },
-              {
-                label: 'Operations Framework',
-                to: '/operations/',
-              },
-            ],
+            type: 'docSidebar',
+            sidebarId: 'handbookSidebar',
+            position: 'left',
+            label: 'Handbook',
           },
           {
-            title: 'Active Clubs',
-            items: [
-              {
-                label: '2D & 3D Club',
-                to: '/club-ecosystem/2d-3d-club',
-              },
-              {
-                label: 'Social Media Club',
-                to: '/club-ecosystem/social-media-club',
-              },
-              {
-                label: 'Abstract Strategies Club',
-                to: '/club-ecosystem/abstract-strategies-club',
-              },
-              {
-                label: 'Debate & Public Speaking Club',
-                to: '/club-ecosystem/debate-public-speaking-club',
-              },
-            ],
+            to: '/club-ecosystem/2d-3d-club',
+            label: '2D & 3D Club',
+            position: 'left',
           },
           {
-            title: 'Governance & Life',
-            items: [
-              {
-                label: 'Leadership Structure',
-                to: '/club-leadership/',
-              },
-              {
-                label: 'Membership Rules',
-                to: '/membership/',
-              },
-              {
-                label: 'Guidelines & Conduct',
-                to: '/guidelines/',
-              },
-            ],
+            to: '/club-ecosystem/social-media-club',
+            label: 'Social Media',
+            position: 'left',
+          },
+          {
+            to: '/club-ecosystem/abstract-strategies-club',
+            label: 'Abstract Strategies',
+            position: 'left',
+          },
+          {
+            to: '/club-ecosystem/debate-public-speaking-club',
+            label: 'Debate & Public Speaking',
+            position: 'left',
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Kalvium × Vels Student Clubs Ecosystem. Built with Docusaurus.`,
       },
       prism: {
         theme: require('prism-react-renderer').themes.dracula,
