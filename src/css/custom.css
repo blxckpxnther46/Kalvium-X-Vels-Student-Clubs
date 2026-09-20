@@ -1,6 +1,6 @@
 /**
  * GitBook Dark Red Matte Theme
- * Spacing & Padding Optimization for Main Content
+ * Generous Sidebar & Content Separation Spacing
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
@@ -94,7 +94,7 @@ body {
   box-shadow: 0 0 10px rgba(255, 77, 77, 0.25) !important;
 }
 
-/* GitBook Left Sidebar */
+/* GitBook Left Sidebar with Right Margin Gap */
 .theme-doc-sidebar-container {
   border-right: 1px solid #241d1d !important;
   background: #161313 !important;
@@ -145,25 +145,41 @@ body {
   color: #ffffff !important;
 }
 
-/* Main Documentation Area Layout & Generous Spacing */
-.docMainContainer {
-  padding-left: 3.5rem !important;
+/* Wide Separation Gap Between Sidebar and Main Content */
+.docMainContainer,
+main[class*='docMainContainer'] {
+  padding-left: 4.5rem !important;
   padding-right: 3.5rem !important;
 }
 
+div[class*='docItemContainer'],
 .docItemContainer {
-  max-width: 860px !important;
+  max-width: 880px !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
   padding-top: 2rem !important;
   padding-bottom: 4rem !important;
   margin: 0 auto !important;
 }
 
+@media (max-width: 1200px) {
+  .docMainContainer,
+  main[class*='docMainContainer'] {
+    padding-left: 2.5rem !important;
+    padding-right: 2rem !important;
+  }
+}
+
 @media (max-width: 996px) {
-  .docMainContainer {
+  .docMainContainer,
+  main[class*='docMainContainer'] {
     padding-left: 1.2rem !important;
     padding-right: 1.2rem !important;
   }
+  div[class*='docItemContainer'],
   .docItemContainer {
+    padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
     padding-top: 1.5rem !important;
   }
 }
@@ -215,12 +231,16 @@ body {
 }
 
 /* Breadcrumbs (e.g., Overview) */
+.breadcrumbs {
+  margin-bottom: 1.5rem !important;
+  padding-left: 0 !important;
+}
+
 .breadcrumbs__item--active .breadcrumbs__link,
 .theme-doc-breadcrumbs {
   color: #ff4d4d !important;
   font-weight: 600;
   font-size: 0.85rem;
-  margin-bottom: 0.8rem;
 }
 
 .breadcrumbs__link {
@@ -233,6 +253,7 @@ body {
   border: 1px solid #2d2222;
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.5);
   margin: 1.5rem 0;
+  max-width: 100%;
 }
 
 /* Table of Contents Right Panel ("ON THIS PAGE") */
