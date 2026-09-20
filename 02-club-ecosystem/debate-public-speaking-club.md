@@ -17,3 +17,12 @@ Activities in the club can include:
 - Keynotes & TED-style Talks: Prepared speech delivery, storytelling narratives, and presentation slide design.
 
 These examples serve to inspire session ideas. Leaders and members can introduce new debate formats, speaking challenges, and rhetoric workshops.
+
+## Current Leadership & Mentor
+
+The following individuals represent the current leadership and mentorship team for the Debate & Public Speaking Club. These listings represent active appointments and may change through future elections, appointments, or succession.
+
+- Current Mentor: G S Sai Priya
+- Current President: To Be Assigned
+- Current Vice President: To Be Assigned
+- Current Club Coordinators: To Be Assigned

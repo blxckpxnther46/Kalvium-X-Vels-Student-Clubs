@@ -16,3 +16,12 @@ Activities in the club can include:
 - Media Strategy & Growth: Platform analytics, campaign development, content calendars, and Build in Public tracking.
 
 These activities are examples of what the club can undertake. Members and leaders are free to experiment with new media formats, campaign ideas, and production styles.
+
+## Current Leadership & Mentor
+
+The following individuals represent the current leadership and mentorship team for the Social Media Club. These listings represent active appointments and may change through future elections, appointments, or succession.
+
+- Current Mentor: Sibishree M
+- Current President: To Be Assigned
+- Current Vice President: To Be Assigned
+- Current Club Coordinators: To Be Assigned

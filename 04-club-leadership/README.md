@@ -57,35 +57,3 @@ Club Coordinators take ownership of specific responsibilities, activities, or ev
 ## Selection & Succession
 
 Leadership positions are filled through transparent selection periods based on commitment, organizational capability, and initiative. Interested members submit an application detailing their background and ideas for upcoming club cycles. Candidates complete a review with the Operations Team and Faculty Mentors before appointments are finalized.
-
-## Current Club Leadership & Mentors
-
-The following individuals represent the current leadership and mentorship team for each club. These listings represent active appointments and may change through future elections, appointments, or succession.
-
-### 2D & 3D Club
-
-- Current Mentor: Nitheesh Kumar
-- Current President: To Be Assigned
-- Current Vice President: To Be Assigned
-- Current Club Coordinators: To Be Assigned
-
-### Social Media Club
-
-- Current Mentor: Sibishree M
-- Current President: To Be Assigned
-- Current Vice President: To Be Assigned
-- Current Club Coordinators: To Be Assigned
-
-### Abstract Strategies Club
-
-- Current Mentor: Varshaa KK
-- Current President: To Be Assigned
-- Current Vice President: To Be Assigned
-- Current Club Coordinators: To Be Assigned
-
-### Debate & Public Speaking Club
-
-- Current Mentor: G S Sai Priya
-- Current President: To Be Assigned
-- Current Vice President: To Be Assigned
-- Current Club Coordinators: To Be Assigned

@@ -18,3 +18,12 @@ Activities in the club can include:
 HUMINT activities are strictly framed around ethical communication, interviewing, observation, rapport-building, information assessment, negotiation, and scenario-based exercises. Covert gathering of personal information is prohibited.
 
 These activities provide direction for the club, but members are encouraged to propose new strategy simulations, game formats, and analytical exercises.
+
+## Current Leadership & Mentor
+
+The following individuals represent the current leadership and mentorship team for the Abstract Strategies Club. These listings represent active appointments and may change through future elections, appointments, or succession.
+
+- Current Mentor: Varshaa KK
+- Current President: To Be Assigned
+- Current Vice President: To Be Assigned
+- Current Club Coordinators: To Be Assigned

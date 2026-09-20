@@ -17,3 +17,12 @@ Activities in the club can include:
 - Visual Experimentation: Testing new design tools, Shader graphics, and visual design challenges.
 
 These activities are examples of areas the club can explore, not a fixed curriculum. Members and leaders are encouraged to introduce new visual tools, projects, and creative experiments.
+
+## Current Leadership & Mentor
+
+The following individuals represent the current leadership and mentorship team for the 2D & 3D Club. These listings represent active appointments and may change through future elections, appointments, or succession.
+
+- Current Mentor: Nitheesh Kumar
+- Current President: To Be Assigned
+- Current Vice President: To Be Assigned
+- Current Club Coordinators: To Be Assigned
