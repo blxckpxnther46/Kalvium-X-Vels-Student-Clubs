@@ -123,8 +123,8 @@ html[data-theme='dark'] body {
    NAVBAR (GLASSMORPHIC REDESIGN)
    ================================================== */
 .navbar {
-  height: 68px;
-  min-height: 68px;
+  height: 74px;
+  min-height: 74px;
   background: var(--ifm-navbar-background-color) !important;
   backdrop-filter: blur(16px) saturate(140%);
   -webkit-backdrop-filter: blur(16px) saturate(140%);
@@ -147,9 +147,9 @@ html[data-theme='dark'] body {
 }
 
 .navbar__logo img {
-  height: 44px !important;
+  height: 52px !important;
   width: auto !important;
-  max-height: 46px !important;
+  max-height: 56px !important;
   border-radius: 0 !important;
   object-fit: contain !important;
 }
@@ -205,7 +205,7 @@ html[data-theme='dark'] body {
 }
 
 .menu {
-  padding: 1rem 0.75rem !important;
+  padding: 0.35rem 0.75rem 1rem 0.75rem !important;
 }
 
 .menu__list {
@@ -259,6 +259,12 @@ html[data-theme='dark'] body {
   padding: 0.35rem 0.4rem !important;
   cursor: pointer;
   transition: color 180ms ease;
+}
+
+/* Eliminate excessive top space above the very first category item */
+.menu__list > .menu__list-item:first-child .menu__link--sublist,
+.menu__list > .menu__list-item:first-child > .menu__list-item-collapsible > .menu__link {
+  margin-top: 0.2rem !important;
 }
 
 /* Category Hover Behavior: Text Color Transition ONLY (No background box) */
@@ -331,6 +337,10 @@ div[class*='docItemContainer'],
 }
 
 @media (max-width: 996px) {
+  :root {
+    --ifm-navbar-sidebar-width: min(340px, 85vw);
+  }
+
   .docMainContainer,
   main[class*='docMainContainer'] {
     padding-left: 1.2rem !important;
@@ -345,19 +355,19 @@ div[class*='docItemContainer'],
 
   /* Mobile Navbar Height & Padding */
   .navbar {
-    height: 60px !important;
-    min-height: 60px !important;
+    height: 70px !important;
+    min-height: 70px !important;
     padding: 0 1rem !important;
   }
 
-  /* Logo proportional scaling on mobile screens */
+  /* Logo proportional scaling on mobile screens - enlarged */
   .navbar__brand {
     margin-right: 0.75rem !important;
   }
 
   .navbar__logo img {
-    height: 32px !important;
-    max-height: 34px !important;
+    height: 48px !important;
+    max-height: 50px !important;
     width: auto !important;
     object-fit: contain !important;
   }
@@ -387,16 +397,12 @@ div[class*='docItemContainer'],
     top: 0 !important;
     bottom: 0 !important;
     left: 0 !important;
-    width: 85vw !important;
-    max-width: 360px !important;
+    width: var(--ifm-navbar-sidebar-width) !important;
     height: 100vh !important;
     height: 100dvh !important;
     background: #0D0D0E !important;
-    box-shadow: 4px 0 24px rgba(0, 0, 0, 0.4) !important;
+    box-shadow: 4px 0 24px rgba(0, 0, 0, 0.5) !important;
     z-index: 1000 !important;
-    display: flex !important;
-    flex-direction: column !important;
-    overflow: hidden !important;
   }
 
   html[data-theme='light'] .navbar-sidebar {
@@ -406,15 +412,14 @@ div[class*='docItemContainer'],
 
   /* Drawer Top Header (Logo + Close Button) */
   .navbar-sidebar__brand {
-    height: 60px !important;
-    min-height: 60px !important;
-    padding: 0 1.2rem !important;
+    height: 70px !important;
+    min-height: 70px !important;
+    padding: 0 1rem !important;
     display: flex !important;
     align-items: center !important;
     justify-content: space-between !important;
     border-bottom: 1px solid var(--ifm-border-color) !important;
     background: var(--ifm-background-surface-color) !important;
-    flex-shrink: 0 !important;
   }
 
   .navbar-sidebar__brand .navbar__brand {
@@ -422,8 +427,8 @@ div[class*='docItemContainer'],
   }
 
   .navbar-sidebar__brand .navbar__logo img {
-    height: 32px !important;
-    max-height: 34px !important;
+    height: 44px !important;
+    max-height: 46px !important;
   }
 
   /* Isolated Close Button in Drawer Header */
@@ -444,15 +449,33 @@ div[class*='docItemContainer'],
     background: var(--ifm-menu-color-background-hover) !important;
   }
 
-  /* Independent Scrollable Navigation Items Container */
+  /* Sliding Track Container for Primary & Secondary Navigation Items */
   .navbar-sidebar__items {
-    flex: 1 1 auto !important;
-    overflow-y: auto !important;
-    -webkit-overflow-scrolling: touch !important;
-    padding: 1rem 0.75rem !important;
+    display: flex !important;
+    height: calc(100% - 70px) !important;
+    transition: transform var(--ifm-transition-fast) ease-in-out !important;
   }
 
-  .navbar-sidebar__items .menu {
+  .navbar-sidebar__items--show-secondary {
+    transform: translate3d(calc(var(--ifm-navbar-sidebar-width) * -1), 0, 0) !important;
+  }
+
+  /* Individual Menu Panels (Primary & Secondary Doc Menu) */
+  .navbar-sidebar__item {
+    width: var(--ifm-navbar-sidebar-width) !important;
+    flex-shrink: 0 !important;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    padding: 0.75rem !important;
+    box-sizing: border-box !important;
+  }
+
+  /* Hide 'Back to main menu' button inside mobile sidebar */
+  .navbar-sidebar__back {
+    display: none !important;
+  }
+
+  .navbar-sidebar__item .menu {
     padding: 0 !important;
   }
 
