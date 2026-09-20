@@ -1,3 +1,7 @@
+---
+title: Growth Hours & Club Activities
+---
+
 # Growth Hours & Club Activities
 
 The 4:00 PM to 6:00 PM period is referred to as Growth Hours because club activities contribute directly to student growth pillars.

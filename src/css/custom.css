@@ -1,20 +1,28 @@
 /**
  * Custom Premium Documentation UI - Kalvium × Vels Student Clubs
- * Category Box & Downward Shifted Right TOC Line Fixes
+ * Complete Consistent Dark & Light Theme System
  */
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap');
 
-:root {
+/* ==================================================
+   THEME VARIABLES
+   ================================================== */
+
+/* Dark Mode Theme Variables (Default) */
+:root,
+html[data-theme='dark'] {
   --ifm-font-family-base: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   --ifm-font-family-monospace: 'JetBrains Mono', monospace;
-
-  /* Dark Theme Color System */
   --ifm-color-scheme: dark;
+  color-scheme: dark;
+
+  /* Surface & Background System */
   --ifm-background-color: #0B0B0C;
   --ifm-background-surface-color: #111113;
   --ifm-color-surface-secondary: #151517;
 
+  /* Kalvium Red Brand Palette */
   --ifm-color-primary: #FF3030;
   --ifm-color-primary-dark: #E52424;
   --ifm-color-primary-darker: #CC1F1F;
@@ -23,30 +31,42 @@
   --ifm-color-primary-lighter: #FF7070;
   --ifm-color-primary-lightest: #FFA8A8;
 
+  /* Typography Colors */
   --ifm-text-color: #F5F5F5;
   --ifm-heading-color: #FFFFFF;
   --ifm-color-secondary-text: #A1A1AA;
   --ifm-color-muted-text: #71717A;
 
+  /* Interactive Elements & Borders */
   --ifm-link-color: #FF3030;
   --ifm-link-hover-color: #FF7070;
   --ifm-border-color: rgba(255, 255, 255, 0.08);
   --ifm-hover-border-color: rgba(255, 48, 48, 0.25);
 
-  --ifm-navbar-background-color: #0F0F10;
-  --ifm-navbar-height: 60px;
+  /* Component Backgrounds */
+  --ifm-navbar-background-color: rgba(15, 15, 16, 0.78);
+  --ifm-sidebar-background-color: #0D0D0E;
   --ifm-toc-border-color: rgba(255, 255, 255, 0.08);
+
+  --ifm-menu-color: #A1A1AA;
+  --ifm-menu-color-active: #FF3030;
+  --ifm-menu-color-background-active: rgba(255, 48, 48, 0.09);
+  --ifm-menu-color-background-hover: rgba(255, 255, 255, 0.04);
 
   --docusaurus-highlighted-code-line-bg: rgba(255, 48, 48, 0.15);
 }
 
-/* Light Mode Equivalent */
+/* Light Mode Theme Variables */
 html[data-theme='light'] {
   --ifm-color-scheme: light;
+  color-scheme: light;
+
+  /* Surface & Background System */
   --ifm-background-color: #FAFAFA;
   --ifm-background-surface-color: #FFFFFF;
   --ifm-color-surface-secondary: #F4F4F5;
 
+  /* Kalvium Red Brand Palette */
   --ifm-color-primary: #E52424;
   --ifm-color-primary-dark: #CC1F1F;
   --ifm-color-primary-darker: #B31B1B;
@@ -55,23 +75,38 @@ html[data-theme='light'] {
   --ifm-color-primary-lighter: #FF6E6E;
   --ifm-color-primary-lightest: #FFA8A8;
 
+  /* Typography Colors */
   --ifm-text-color: #18181B;
   --ifm-heading-color: #09090B;
   --ifm-color-secondary-text: #52525B;
   --ifm-color-muted-text: #71717A;
 
+  /* Interactive Elements & Borders */
   --ifm-link-color: #E52424;
   --ifm-link-hover-color: #FF4A4A;
   --ifm-border-color: rgba(0, 0, 0, 0.08);
   --ifm-hover-border-color: rgba(229, 36, 36, 0.25);
 
-  --ifm-navbar-background-color: #FFFFFF;
+  /* Component Backgrounds */
+  --ifm-navbar-background-color: rgba(255, 255, 255, 0.85);
+  --ifm-sidebar-background-color: #F4F4F5;
   --ifm-toc-border-color: rgba(0, 0, 0, 0.08);
+
+  --ifm-menu-color: #52525B;
+  --ifm-menu-color-active: #E52424;
+  --ifm-menu-color-background-active: rgba(229, 36, 36, 0.08);
+  --ifm-menu-color-background-hover: rgba(0, 0, 0, 0.04);
+
+  --docusaurus-highlighted-code-line-bg: rgba(229, 36, 36, 0.1);
 }
 
+/* ==================================================
+   GLOBAL BODY & MAIN CONTAINER
+   ================================================== */
 body {
   background-color: var(--ifm-background-color);
   color: var(--ifm-text-color);
+  transition: background-color 180ms ease, color 180ms ease;
 }
 
 html[data-theme='dark'] body {
@@ -84,32 +119,51 @@ html[data-theme='dark'] body {
   display: none !important;
 }
 
-/* Redesigned Navbar (56-64px height, dark background, subtle bottom border) */
+/* ==================================================
+   NAVBAR (GLASSMORPHIC REDESIGN)
+   ================================================== */
 .navbar {
-  height: 60px;
-  min-height: 60px;
+  height: 68px;
+  min-height: 68px;
   background: var(--ifm-navbar-background-color) !important;
-  border-bottom: 1px solid var(--ifm-border-color);
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(16px) saturate(140%);
+  -webkit-backdrop-filter: blur(16px) saturate(140%);
+  border-bottom: 1px solid var(--ifm-border-color) !important;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
   padding: 0 1.8rem;
+  transition: background-color 180ms ease, border-color 180ms ease;
+}
+
+.navbar__brand {
+  margin-right: 1.5rem;
+  display: flex;
+  align-items: center;
 }
 
 .navbar__logo {
-  margin-right: 0.75rem;
+  margin-right: 0;
+  display: flex;
+  align-items: center;
 }
 
 .navbar__logo img {
-  height: 24px;
-  width: 24px;
-  border-radius: 4px;
-  object-fit: cover;
+  height: 44px !important;
+  width: auto !important;
+  max-height: 46px !important;
+  border-radius: 0 !important;
+  object-fit: contain !important;
 }
 
+/* Remove separate text navbar title (logo image contains title) */
 .navbar__title {
-  font-weight: 650;
-  font-size: 0.95rem;
-  color: var(--ifm-heading-color);
-  letter-spacing: -0.01em;
+  display: none !important;
+}
+
+/* Hide theme toggle switch button completely */
+[class*='colorModeToggle'],
+.colorModeToggle_DEke,
+.toggle_vylO {
+  display: none !important;
 }
 
 /* Active Right Navbar Overview Item */
@@ -141,14 +195,13 @@ html[data-theme='dark'] body {
   box-shadow: 0 0 8px rgba(255, 48, 48, 0.2) !important;
 }
 
-/* Redesigned Premium Documentation Sidebar */
+/* ==================================================
+   SIDEBAR & CATEGORY STYLING
+   ================================================== */
 .theme-doc-sidebar-container {
   border-right: 1px solid var(--ifm-border-color) !important;
-  background: #0D0D0E !important;
-}
-
-html[data-theme='light'] .theme-doc-sidebar-container {
-  background: #F4F4F5 !important;
+  background: var(--ifm-sidebar-background-color) !important;
+  transition: background-color 180ms ease, border-color 180ms ease;
 }
 
 .menu {
@@ -171,53 +224,82 @@ html[data-theme='light'] .theme-doc-sidebar-container {
 
 .menu__link:hover {
   color: var(--ifm-heading-color);
-  background: rgba(255, 255, 255, 0.04);
+  background: var(--ifm-menu-color-background-hover);
 }
 
-/* Category Section Headings (01: INTRODUCTION, etc.) - Small Compact Gray Box, NO RED PILL OR RED LINE EVER! */
+/* PARENT CATEGORY HEADERS (01: INTRODUCTION, 02: CLUB ECOSYSTEM, etc.)
+   Plain text + Chevron ONLY. No container pill or background box around category headers. */
+.menu__list-item-collapsible,
+.menu__list-item-collapsible:hover,
+.menu__list-item-collapsible--active,
 .menu__link--sublist,
-.menu__list-item-collapsible > div > .menu__link,
-.menu__list-item-collapsible .menu__link--sublist {
-  border-left: none !important;
-  box-shadow: none !important;
-  font-size: 11px !important;
-  font-weight: 700 !important;
-  letter-spacing: 0.06em !important;
-  text-transform: uppercase !important;
-  margin-top: 0.8rem !important;
-  margin-bottom: 0.3rem !important;
-  padding: 0.35rem 0.65rem !important;
-  border-radius: 6px !important;
-  background: #181414 !important;
-  color: #8c7a7a !important;
-}
-
 .menu__link--sublist:hover,
-.menu__list-item-collapsible .menu__link--sublist:hover {
-  background: #201a1a !important;
-  color: #ffffff !important;
-}
-
-/* Ensure Active Category Header Remains Gray (No Red Left Indicator / No Red Text) */
 .menu__link--sublist.menu__link--active,
-.menu__list-item-collapsible .menu__link--active {
+.menu__link--sublist.menu__link--active:hover,
+.menu__link--sublist[aria-expanded] {
+  background: transparent !important;
+  background-color: transparent !important;
+  border: none !important;
   border-left: none !important;
+  border-radius: 0 !important;
   box-shadow: none !important;
-  color: #a1a1aa !important;
-  background: #221c1c !important;
+  outline: none !important;
 }
 
-/* Active Page Sub-Item ONLY (e.g. Framework & Club Autonomy) gets Red Left Line & Translucent Red Pill */
-.menu__list-item:not(.menu__list-item-collapsible) .menu__link--active,
-.menu__link--active:not(.menu__link--sublist) {
-  color: #FF4A4A !important;
-  background: rgba(255, 48, 48, 0.09) !important;
-  border-left: 3px solid #FF3030 !important;
+/* Category Title Typography & Layout */
+.menu__link--sublist,
+.menu__list-item-collapsible > .menu__link {
+  font-size: 11px !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.07em !important;
+  text-transform: uppercase !important;
+  color: var(--ifm-color-muted-text) !important;
+  margin-top: 1.4rem !important;
+  margin-bottom: 0.35rem !important;
+  padding: 0.35rem 0.4rem !important;
+  cursor: pointer;
+  transition: color 180ms ease;
+}
+
+/* Category Hover Behavior: Text Color Transition ONLY (No background box) */
+.menu__link--sublist:hover,
+.menu__link--sublist.menu__link--active:hover,
+.menu__list-item-collapsible:hover > .menu__link {
+  background: transparent !important;
+  background-color: transparent !important;
+  color: var(--ifm-heading-color) !important;
+}
+
+/* Expanded Category Text Color */
+.menu__list-item:not(.menu__list-item--collapsed) > .menu__list-item-collapsible > .menu__link--sublist {
+  color: var(--ifm-color-secondary-text) !important;
+}
+
+/* Caret/Chevron Styling (Preserves Docusaurus SVG icon & rotation) */
+.menu__link--sublist-caret::after {
+  opacity: 0.7;
+  transition: transform 180ms ease, opacity 180ms ease;
+}
+
+.menu__link--sublist-caret:hover::after {
+  opacity: 1;
+}
+
+/* ACTIVE CHILD PAGE ITEM ONLY */
+.theme-doc-sidebar-item-link .menu__link--active,
+.menu__list-item-link .menu__link--active,
+a.menu__link--active:not(.menu__link--sublist),
+a.menu__link[aria-current="page"] {
+  background: var(--ifm-menu-color-background-active) !important;
+  background-color: var(--ifm-menu-color-background-active) !important;
+  color: var(--ifm-color-primary) !important;
+  border-left: 3px solid var(--ifm-color-primary) !important;
   border-radius: 0 6px 6px 0 !important;
   font-weight: 600 !important;
+  box-shadow: none !important;
 }
 
-/* Non-Intrusive Ultra-Thin Sidebar Scrollbar */
+/* Ultra-Thin Sidebar Scrollbar */
 .theme-doc-sidebar-container ::-webkit-scrollbar {
   width: 5px;
 }
@@ -227,11 +309,13 @@ html[data-theme='light'] .theme-doc-sidebar-container {
 }
 
 .theme-doc-sidebar-container ::-webkit-scrollbar-thumb {
-  background: #27272A;
+  background: var(--ifm-border-color);
   border-radius: 3px;
 }
 
-/* Content Container & Maximum Reading Width */
+/* ==================================================
+   CONTENT LAYOUT & TYPOGRAPHY
+   ================================================== */
 .docMainContainer,
 main[class*='docMainContainer'] {
   padding-left: 4.5rem !important;
@@ -260,7 +344,6 @@ div[class*='docItemContainer'],
   }
 }
 
-/* Markdown Content Styling */
 .markdown {
   font-size: 16px;
   line-height: 1.75;
@@ -335,20 +418,20 @@ div[class*='docItemContainer'],
   font-weight: 500;
 }
 
-/* Hero / Banner Images inside Documentation */
+/* Documentation Banner Images */
 .markdown img {
   border-radius: 16px;
   border: 1px solid var(--ifm-border-color);
-  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
   max-height: 380px;
   width: 100%;
   object-fit: cover;
   margin: 1.5rem 0;
 }
 
-/* Right "ON THIS PAGE" Table of Contents (Container & Border Line Shifted Downward) */
+/* Right "ON THIS PAGE" Table of Contents */
 .table-of-contents {
-  border-left: 1px solid var(--ifm-border-color);
+  border-left: 1px solid var(--ifm-toc-border-color);
   padding-left: 1.2rem;
   margin-top: 3.5rem !important;
   padding-top: 0.5rem !important;
@@ -375,7 +458,7 @@ div[class*='docItemContainer'],
   margin-left: -1.2rem;
 }
 
-/* Cards & Callout Containers */
+/* Alert Cards & Callouts */
 .alert--info, .alert--note, .alert {
   background: var(--ifm-background-surface-color);
   border: 1px solid var(--ifm-border-color);
@@ -396,7 +479,7 @@ div[class*='docItemContainer'],
   margin: 1.5rem 0;
 }
 
-/* Table Styling */
+/* Tables */
 table {
   width: 100%;
   border-collapse: separate;
@@ -424,7 +507,7 @@ table td {
 
 /* Code Blocks */
 code {
-  background: rgba(255, 255, 255, 0.06);
+  background: var(--ifm-color-surface-secondary);
   border: 1px solid var(--ifm-border-color);
   color: var(--ifm-color-primary);
   border-radius: 5px;
@@ -441,10 +524,10 @@ pre code {
   background: var(--ifm-background-surface-color) !important;
   border: 1px solid var(--ifm-border-color);
   border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
-/* Primary Button Styling */
+/* Buttons */
 .button--primary {
   background-color: var(--ifm-color-primary) !important;
   border-color: var(--ifm-color-primary) !important;
@@ -460,7 +543,6 @@ pre code {
   box-shadow: 0 4px 15px rgba(255, 48, 48, 0.3);
 }
 
-/* Reduced Motion Support */
 @media (prefers-reduced-motion: reduce) {
   *, ::before, ::after {
     animation-duration: 0.01ms !important;

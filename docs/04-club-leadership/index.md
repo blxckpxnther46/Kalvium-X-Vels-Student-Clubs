@@ -1,3 +1,7 @@
+---
+title: Leadership Structure & Roles
+---
+
 # Leadership Structure & Roles
 
 Each club is led by a student executive team consisting of a President, Vice President, and Club Coordinators, supported by a Faculty Mentor.

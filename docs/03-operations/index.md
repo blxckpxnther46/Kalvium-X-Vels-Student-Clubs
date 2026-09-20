@@ -1,3 +1,7 @@
+---
+title: Student Club Operations Team
+---
+
 # Student Club Operations Team
 
 The Kalvium x Vels Student Club Operations Team coordinates the overall ecosystem, works with campus management and mentors, and supports club leadership with scheduling, enrollment, and shared processes.

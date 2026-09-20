@@ -4,14 +4,8 @@
 const sidebars = {
   handbookSidebar: [
     {
-      type: 'doc',
-      id: 'intro',
-      label: 'Welcome & Overview',
-    },
-    {
       type: 'category',
       label: '01: INTRODUCTION',
-      link: { type: 'doc', id: 'introduction/index' },
       collapsible: true,
       collapsed: false,
       items: [
@@ -22,7 +16,6 @@ const sidebars = {
     {
       type: 'category',
       label: '02: CLUB ECOSYSTEM',
-      link: { type: 'doc', id: 'club-ecosystem/index' },
       collapsible: true,
       collapsed: false,
       items: [
@@ -37,7 +30,6 @@ const sidebars = {
     {
       type: 'category',
       label: '03: OPERATIONS',
-      link: { type: 'doc', id: 'operations/index' },
       collapsible: true,
       collapsed: false,
       items: [
@@ -48,7 +40,6 @@ const sidebars = {
     {
       type: 'category',
       label: '04: CLUB LEADERSHIP',
-      link: { type: 'doc', id: 'club-leadership/index' },
       collapsible: true,
       collapsed: false,
       items: [
@@ -60,7 +51,6 @@ const sidebars = {
     {
       type: 'category',
       label: '05: MEMBERSHIP & LIFECYCLE',
-      link: { type: 'doc', id: 'membership/index' },
       collapsible: true,
       collapsed: false,
       items: [
@@ -72,7 +62,6 @@ const sidebars = {
     {
       type: 'category',
       label: '06: MENTORSHIP',
-      link: { type: 'doc', id: 'mentorship/index' },
       collapsible: true,
       collapsed: false,
       items: [
@@ -82,7 +71,6 @@ const sidebars = {
     {
       type: 'category',
       label: '07: SCHEDULING & ACTIVITIES',
-      link: { type: 'doc', id: 'scheduling-activities/index' },
       collapsible: true,
       collapsed: false,
       items: [
@@ -93,7 +81,6 @@ const sidebars = {
     {
       type: 'category',
       label: '08: GUIDELINES & GOVERNANCE',
-      link: { type: 'doc', id: 'guidelines/index' },
       collapsible: true,
       collapsed: false,
       items: [
@@ -103,7 +90,6 @@ const sidebars = {
     {
       type: 'category',
       label: '09: DOCUMENTATION & ARTIFACTS',
-      link: { type: 'doc', id: 'documentation/index' },
       collapsible: true,
       collapsed: false,
       items: [

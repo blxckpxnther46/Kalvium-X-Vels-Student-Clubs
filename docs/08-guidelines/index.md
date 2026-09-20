@@ -1,3 +1,7 @@
+---
+title: Code of Conduct & Governance Guidelines
+---
+
 # Code of Conduct & Governance Guidelines
 
 All members must maintain a respectful, inclusive, and professional environment across all sessions, chats, and events.

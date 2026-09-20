@@ -44,15 +44,15 @@ const config = {
     ({
       colorMode: {
         defaultMode: 'dark',
-        disableSwitch: false,
+        disableSwitch: true,
         respectPrefersColorScheme: false,
       },
       image: 'img/banner.png',
       navbar: {
-        title: 'Kalvium × Vels Student Clubs',
         logo: {
-          alt: 'Kalvium Logo',
-          src: 'img/icon.png',
+          alt: 'Kalvium × Vels Student Clubs',
+          src: 'img/logo.png',
+          srcDark: 'img/logo.png',
         },
         items: [
           {

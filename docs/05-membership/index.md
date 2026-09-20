@@ -1,3 +1,7 @@
+---
+title: Joining & Member Expectations
+---
+
 # Joining & Member Expectations
 
 Students join a club by completing the official registration form during published enrollment windows.

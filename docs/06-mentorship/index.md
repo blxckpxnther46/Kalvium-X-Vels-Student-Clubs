@@ -1,3 +1,7 @@
+---
+title: Faculty Mentorship & Support Model
+---
+
 # Faculty Mentorship & Support Model
 
 Faculty mentors serve as strategic advisors for student leaders, providing guidance, technical perspective, report reviews, and milestone feedback.

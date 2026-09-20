@@ -1,3 +1,7 @@
+---
+title: Framework & Club Autonomy
+---
+
 # Framework & Club Autonomy
 
 The central framework sets the boundaries that make the ecosystem work consistently, while club leaders and members decide how their club operates within those boundaries.
