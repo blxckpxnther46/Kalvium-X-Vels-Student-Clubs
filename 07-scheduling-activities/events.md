@@ -1,5 +1,5 @@
 # Events & Workshops
 
-In addition to regular Growth Hours, clubs may organize special workshops or inter-club challenges.
+Clubs may organize special events, masterclasses, or inter-club hackathons in addition to regular Growth Hours sessions.
 
-Special sessions must be planned in advance with the Operations Team to coordinate room availability and equipment.
+Special events should be planned in advance with the Operations Team to coordinate room reservations and equipment access.

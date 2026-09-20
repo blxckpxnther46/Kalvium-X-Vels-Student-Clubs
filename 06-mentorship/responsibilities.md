@@ -1,9 +1,9 @@
 # Mentor Responsibilities
 
-Mentors support student clubs through advisory functions:
+Mentors support clubs through focused advisory functions:
 
-- Review monthly sprint goals with club officers.
-- Recommend tools, references, and learning resources.
-- Attend mid-cycle check-ins to review project progress.
-- Provide feedback during Showcase Day presentations.
-- Help resolve operational challenges when escalated by student leaders.
+- Review monthly sprint plans with club officers at the start of a cycle.
+- Offer technical advice, frameworks, and learning resources.
+- Participate in mid-cycle progress check-ins.
+- Provide feedback on member presentations during Showcase Day.
+- Support administrative requests when institutional backing is required.

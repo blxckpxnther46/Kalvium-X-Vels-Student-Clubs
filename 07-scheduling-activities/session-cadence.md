@@ -1,8 +1,5 @@
 # Session Cadence
 
-Growth Hours sessions run for 2 hours and typically follow this structure:
+Growth Hours sessions run for 2 hours. While each club leadership team designs its own agenda, sessions typically balance brief briefings, technical demonstrations, hands-on practice, and wrap-up logging.
 
-- Briefing (15 mins): Attendance check, agenda overview, and session goals.
-- Workshop or Demo (30 mins): Technical tutorial, concept review, or skill demonstration.
-- Hands-on Practice (60 mins): Project work, debate practice, design work, or gameplay.
-- Wrap-up (15 mins): Progress log, room cleanup, and next steps.
+Club leaders are free to adjust session structures depending on whether the club is focusing on a design workshop, debate practice, gameplay analysis, or media recording.

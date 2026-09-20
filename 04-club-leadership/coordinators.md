@@ -1,5 +1,5 @@
 # Club Coordinators
 
-Club Coordinators assist executive officers by managing specific workshop activities or technical topics.
+Club Coordinators take ownership of specific activities, projects, or technical tracks assigned by the leadership team.
 
-For example, a coordinator in the 2D & 3D Club might run a tutorial on Figma component design, while a coordinator in the Abstract Strategies Club might organize a chess tournament bracket.
+Coordinators lead practical tutorials, help manage equipment setup, assist small project groups during Growth Hours, and ensure members have the guidance needed to complete their project tasks.

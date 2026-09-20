@@ -1,11 +1,11 @@
-# 09: Documentation & Artifacts
+# Documentation & Artifacts
 
-This section outlines how project files, retrospective reports, and showcase outputs are documented and archived.
+Clubs maintain enough documentation to preserve their project work and showcase their progress over time.
 
-## In This Section
+## Pages in This Section
 
-- [Project Repositories & Build Logs](projects.md): Storing completed project work.
-- [Monthly Retrospective Reports](reports.md): Post-sprint reviews.
-- [Meeting Records & Attendance](meeting-records.md): Archiving meeting logs and attendance.
-- [Showcase Archive](showcase-archive.md): Repository of past showcase deliverables.
-- [Achievements & Wall of Fame](achievements.md): Recognizing member contributions.
+- [Project Repositories & Build Logs](projects.md): Archiving completed project files.
+- [Monthly Retrospective Reports](reports.md): Post-cycle reflections.
+- [Meeting Records & Attendance](meeting-records.md): Meeting notes and roster logs.
+- [Showcase Archive](showcase-archive.md): Repository of past deliverables.
+- [Achievements & Wall of Fame](achievements.md): Member recognition.

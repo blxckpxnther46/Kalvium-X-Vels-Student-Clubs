@@ -1,3 +1,3 @@
 # Meeting Records & Attendance
 
-Vice Presidents keep track of attendance during Growth Hours sessions and record brief notes during leadership planning meetings.
+Vice Presidents maintain session attendance logs and keep brief notes of leadership planning meetings to ensure operational clarity.

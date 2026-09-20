@@ -1,7 +1,5 @@
 # Role of a Club Mentor
 
-Faculty mentors provide strategic advice and feedback to student leaders.
+Faculty mentors serve as strategic advisors for student leaders.
 
-Mentors offer domain expertise, help validate project direction, and support administrative requests when needed.
-
-Mentors do not run day-to-day club sessions. Student officers are responsible for leading meetings and organizing projects.
+Mentors provide guidance, feedback, and institutional support, helping student officers navigate technical roadblocks and project planning. Mentors do not run day-to-day club sessions; leadership remains student-led.

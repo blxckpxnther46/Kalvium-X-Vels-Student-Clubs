@@ -1,15 +1,11 @@
 # Presidents & Vice Presidents
 
-Presidents and Vice Presidents lead the operational execution of their respective clubs.
+Presidents and Vice Presidents form the core executive team responsible for guiding the club through each monthly cycle.
 
 ## President Responsibilities
 
-- Set monthly sprint goals and session plans.
-- Lead club meetings and discussions.
-- Oversee final showcase submissions.
+The President provides direction, coordinates the leadership team, represents the club in central syncs, and ensures the club completes its cycle and showcase deliverable.
 
 ## Vice President Responsibilities
 
-- Coordinate room setup, equipment, and session materials.
-- Maintain session attendance records.
-- Assist with roster updates during the club switching window.
+The Vice President supports the President, coordinates day-to-day execution, helps manage members and session logistics, maintains attendance records, and acts as continuity support during cycle transitions.

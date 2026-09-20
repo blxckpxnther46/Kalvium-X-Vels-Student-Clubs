@@ -1,8 +1,5 @@
 # Club Sprint Lifecycle
 
-Clubs structure their monthly projects into a 4-week sprint:
+Clubs organize their work into monthly cycles leading up to Showcase Day.
 
-- Week 1: Theme introduction and project team setup.
-- Week 2: Technical skill building and initial drafts.
-- Week 3: Project creation, asset rendering, or speech refinement.
-- Week 4: Showcase Day presentation and retrospective.
+During the first half of the cycle, sessions focus on skill building, project ideation, and initial drafts. The second half emphasizes build execution, asset refinement, practice speeches, and final showcase preparations.

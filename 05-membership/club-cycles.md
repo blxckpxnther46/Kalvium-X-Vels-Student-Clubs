@@ -1,13 +1,10 @@
 # Club Cycles & Lifecycle
 
-Club membership runs on monthly cycles. Each cycle gives members enough time to develop skills and complete a project output.
+Membership runs on monthly cycles. A cycle gives members enough time to learn skills, collaborate with peers, and contribute to a completed project.
 
 ```mermaid
 flowchart LR
-    A[Enroll] --> B[Sessions]
-    B --> C[Build Project]
-    C --> D[Showcase Day]
-    D --> E[Switching Window]
+    Join --> Participate --> Contribute --> Build --> Showcase --> SwitchingWindow --> NextCycle
 ```
 
-Members remain with their chosen club for the entire cycle before deciding whether to stay or switch.
+The leadership of each club determines what meaningful participation and contribution looks like within their club, ensuring members experience the full learning process before considering a transfer.

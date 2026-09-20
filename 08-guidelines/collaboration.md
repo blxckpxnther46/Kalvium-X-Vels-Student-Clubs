@@ -1,5 +1,5 @@
 # Cross-Club Collaboration Rules
 
-Joint projects between clubs are encouraged when they create practical learning opportunities.
+Joint projects are encouraged when they create meaningful cross-disciplinary learning.
 
-Collaborating members remain accountable to their home club roster. All published work must credit the contributing clubs and members accurately.
+Collaborating members remain enrolled in and accountable to their home club roster. All published outputs must credit contributing clubs and individual members accurately.

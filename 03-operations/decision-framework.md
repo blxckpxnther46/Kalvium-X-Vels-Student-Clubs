@@ -1,7 +1,11 @@
 # Decision-Making Framework
 
-Decisions are handled at different levels depending on their scope:
+Decisions within the ecosystem are divided into clear areas of responsibility to maintain operational clarity.
 
-- Club Level: Session agendas, workshop topics, and project roles are decided by Club Presidents and Vice Presidents.
-- Ecosystem Level: Schedule adjustments, inter-club projects, and transfer requests are coordinated between Club Leaders and the Operations Team.
-- Governance Level: Policy updates and formal campus requests are handled by the Operations Team, Mentors, and Campus Administration.
+## Framework Level Decisions
+
+The Operations Team handles central framework decisions, including overall registration windows, schedule alignment with campus management, facility requests, roster management, and maintaining governance guidelines.
+
+## Club Level Decisions
+
+Individual club leadership teams handle internal operational decisions, including weekly session topics, project themes, internal task assignments, preparation for Showcase Day, and club culture.

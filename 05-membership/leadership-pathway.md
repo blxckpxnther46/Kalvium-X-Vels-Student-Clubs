@@ -1,10 +1,5 @@
 # Leadership Pathway
 
-Active members can progress into club leadership roles over time.
+Every active member has the opportunity to advance into leadership roles.
 
-- General Member: Participates in sessions and completes sprint tasks.
-- Club Coordinator: Helps run specific workshops or technical sessions.
-- Vice President: Manages logistics, attendance, and administration.
-- President: Leads club direction, sprint goals, and showcase submissions.
-
-Advancement is based on participation history, reliability, and leadership initiative.
+Members who show initiative, reliable attendance, and strong collaboration during regular sessions can apply for Club Coordinator positions. Experienced coordinators can progress to Vice President and President roles during annual selection windows.

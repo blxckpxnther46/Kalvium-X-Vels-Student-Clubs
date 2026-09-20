@@ -1,12 +1,14 @@
-# 02: Club Ecosystem
+# Club Ecosystem
 
-This section details the four active clubs, their core focus areas, and how clubs collaborate on joint projects.
+The ecosystem comprises four active clubs, each representing a unique discipline and community culture.
 
-## In This Section
+While all clubs follow the central framework for cycles and Showcase Day, each club leadership team has full autonomy over its internal sessions, projects, and learning activities.
 
-- [How Clubs Work](how-clubs-work.md): Monthly cycle overview and sprint expectations.
-- [2D & 3D Club](2d-3d-club.md): Visual creativity, design, animation, and 3D art.
-- [Social Media Club](social-media-club.md): Video editing, podcasting, and media strategy.
-- [Abstract Strategies Club](abstract-strategies-club.md): Strategy games, business teardowns, and negotiation.
-- [Debate & Public Speaking Club](debate-public-speaking-club.md): Public speaking, pitching, and structured debates.
+## Pages in This Section
+
+- [How Clubs Work](how-clubs-work.md): Framework boundaries versus club autonomy.
+- [2D & 3D Club](2d-3d-club.md): Visual art, UI design, animation, and 3D modeling.
+- [Social Media Club](social-media-club.md): Content creation, podcasts, and media management.
+- [Abstract Strategies Club](abstract-strategies-club.md): Strategy games, business analysis, and negotiation.
+- [Debate & Public Speaking Club](debate-public-speaking-club.md): Public speaking, debates, and pitching.
 - [Inter-Club Collaboration](inter-club-collaboration.md): Rules for cross-club team projects.

@@ -1,9 +1,7 @@
 # Student-Mentor Working Model
 
-Student officers meet with their faculty mentor at key points during each monthly cycle:
+Officers meet with their mentor for short check-ins during the cycle:
 
-- Start of Cycle: Review proposed sprint plan and deliverables.
-- Mid-Cycle: Check project progress and resolve technical roadblocks.
-- Showcase Day: Evaluate completed member presentations and offer feedback.
-
-Meetings are kept brief and structured around clear progress updates.
+- Start of Cycle: Review proposed project goals and resource needs.
+- Mid-Cycle: Review build progress and address any technical challenges.
+- Showcase Day: Evaluate completed project outputs and share constructive feedback.

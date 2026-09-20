@@ -1,7 +1,5 @@
 # Selection & Succession Process
 
-Club officers are selected based on commitment, initiative, and relevant skills.
+Leadership positions are filled through transparent selection periods based on commitment, organizational skill, and initiative.
 
-Applications open during designated selection windows. Candidates submit their interest, share ideas for upcoming club sprints, and complete a brief review with the Operations Team and Faculty Mentors.
-
-Expressing interest during registration does not guarantee an officer position.
+Interested members submit an application detailing their background and proposed ideas for upcoming club cycles. Candidates complete a short review with the Operations Team and Faculty Mentors before appointments are finalized.

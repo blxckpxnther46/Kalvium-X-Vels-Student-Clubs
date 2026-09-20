@@ -1,7 +1,5 @@
 # Operations Coordinators
 
-Founding members of the operations team use the designation Founding Member & Operations Coordinator.
+Founding members of the central team use the designation Founding Member & Operations Coordinator.
 
-Operations Coordinators facilitate scheduling, campus logistics, and administrative support across all clubs. All founding coordinators share an equal designation.
-
-Coordinators work alongside elected Club Presidents as operational partners to keep the ecosystem running smoothly.
+This designation is equal among all founding operations team members. Operations Coordinators act as operational partners and facilitators for elected Club Presidents, ensuring that scheduling, room bookings, and registration systems function reliably.

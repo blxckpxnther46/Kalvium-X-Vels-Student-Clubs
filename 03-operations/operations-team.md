@@ -1,7 +1,5 @@
 # Student Club Operations Team
 
-The Kalvium x Vels Student Club Operations Team coordinates the overall Student Club ecosystem.
+The Kalvium x Vels Student Club Operations Team coordinates the overall ecosystem, works with campus management and mentors, and supports club leadership with scheduling, enrollment, and shared processes.
 
-The Operations Team works with campus stakeholders and mentors, supporting club leadership with scheduling, enrollment, and shared processes.
-
-The Operations Team does not manage the day-to-day internal activities of individual clubs. Each club is led by its elected President and Vice President.
+The Operations Team establishes the common framework that applies across all clubs. It does not dictate internal club activities, workshop topics, or project choices, which remain under the direction of elected club leaders.

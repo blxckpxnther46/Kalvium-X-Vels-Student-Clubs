@@ -1,7 +1,5 @@
 # Enrollment & Roster Management
 
-The Operations Team maintains the central roster of active members for all clubs.
+The Operations Team maintains the central roster of active club members across all four clubs.
 
-Club enrollment is managed through an official registration form, with responses maintained by the club operations team.
-
-Club Vice Presidents submit verified active member attendance lists at the end of each monthly cycle.
+Club enrollment is managed through an official registration form, with responses maintained by the operations team. Vice Presidents of individual clubs submit verified attendance lists at the end of each cycle to keep active member records up to date.

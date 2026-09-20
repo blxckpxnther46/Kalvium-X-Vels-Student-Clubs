@@ -1,10 +1,5 @@
 # Code of Conduct
 
-All members must maintain a respectful, inclusive, and safe environment.
+All members must maintain a respectful, inclusive, and professional environment.
 
-## Key Rules
-
-- Respect all peers, leaders, mentors, and guests.
-- Plagiarism of code, designs, video media, or written speeches is prohibited.
-- Handle campus lab hardware and club equipment with care.
-- Harassment or discrimination of any kind will result in immediate removal.
+Members are expected to treat peers, leaders, mentors, and guests with dignity. Plagiarism of code, design assets, video media, or speeches is prohibited. Campus lab facilities and club equipment must be handled responsibly.

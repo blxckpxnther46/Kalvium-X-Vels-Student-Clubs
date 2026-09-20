@@ -1,9 +1,5 @@
 # Campus & Management Coordination
 
-The Operations Team coordinates with university administration to ensure clubs have the necessary facilities and support.
+The Operations Team acts as the central link between student clubs and university administration.
 
-## Areas of Coordination
-
-- Room Allocations: Booking computer labs, seminar halls, and spaces for Growth Hours.
-- Schedule Alignment: Avoiding conflicts with exams, official academic sessions, and university holidays.
-- Equipment Access: Requesting AV support, microphones, and lab access when needed.
+Coordinates include reserving computer labs, seminar halls, and open spaces for Growth Hours, as well as aligning club schedules with academic calendars, exams, and university holidays. Equipment requests for AV gear, microphones, and lab workstations are also routed through campus channels by the Operations Team.

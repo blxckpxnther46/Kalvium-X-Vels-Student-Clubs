@@ -1,11 +1,11 @@
-# 08: Guidelines & Governance
+# Guidelines & Governance
 
-This section covers the Code of Conduct, communication rules, media guidelines, and governance standards.
+This section establishes reasonable expectations regarding conduct, communication, media publishing, and dispute resolution.
 
-## In This Section
+## Pages in This Section
 
-- [Code of Conduct](conduct.md): Behavior and ethics expectations.
-- [Internal Communication Guidelines](communication.md): Professional communication rules.
-- [Cross-Club Collaboration Rules](collaboration.md): Governance for joint projects.
+- [Code of Conduct](conduct.md): Behavior, respect, and academic integrity.
+- [Internal Communication Guidelines](communication.md): Group chat standards.
+- [Cross-Club Collaboration Rules](collaboration.md): Maintaining roster integrity.
 - [Public Media & Branding Guidelines](media.md): Responsible social media publishing.
 - [Governance & Escalation Guidelines](governance.md): Disciplinary framework.

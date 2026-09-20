@@ -1,7 +1,7 @@
 # Governance & Escalation Guidelines
 
-Disputes or policy violations are resolved through a straightforward escalation path:
+Disputes or policy violations are handled through a clear escalation path:
 
-- Level 1: Discussion between the student and club officers.
-- Level 2: Review by the central Operations Team if unresolved.
-- Level 3: Consultation with the Faculty Mentor and Campus Administration for serious matters.
+- Stage 1: Discussion between the member and club executive officers.
+- Stage 2: Review by the Operations Team if the issue remains unresolved.
+- Stage 3: Consultation with the Faculty Mentor and Campus Administration for serious matters.
