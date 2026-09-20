@@ -1,3 +1,5 @@
+![Kalvium Student Clubs Banner](assets/kalvium-student-clubs-banner.png)
+
 # Kalvium x Vels Student Clubs Handbook
 
 The Kalvium x Vels Student Clubs ecosystem provides a structured space for students to explore interests, build practical skills, collaborate with peers, and take initiative beyond academics.

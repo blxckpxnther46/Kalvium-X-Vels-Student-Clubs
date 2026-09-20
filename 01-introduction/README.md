@@ -1,3 +1,5 @@
+![Kalvium Student Clubs Banner](../assets/kalvium-student-clubs-banner.png)
+
 # Welcome & Ecosystem Overview
 
 The Kalvium x Vels Student Clubs ecosystem was created to give students dedicated time and space to develop practical skills outside traditional coursework. Through peer collaboration, events, project builds, and monthly showcases, students create tangible work while gaining team and leadership experience.
