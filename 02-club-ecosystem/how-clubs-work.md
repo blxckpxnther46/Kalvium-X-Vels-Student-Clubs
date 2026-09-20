@@ -1,18 +1,20 @@
 # How Clubs Work
 
-The central framework sets the boundaries that make the ecosystem work consistently, while club leadership decides how their club operates within those boundaries.
-
-## Central Framework Responsibilities
-
-The framework defines common rules: what clubs exist, enrollment procedures, the One-Club-Only rule, the monthly Club Cycle, Showcase Day, the Club Switching Window, basic leadership roles, and Growth Hours timing.
-
-## Club Leadership Autonomy
-
-Club leaders decide what happens inside their sessions. This includes choosing weekly workshop topics, project themes, discussion topics, internal task assignments, and how the team prepares for Showcase Day.
+The central framework sets the boundaries that make the ecosystem work consistently, while club leaders and members decide how their club operates within those boundaries.
 
 ```mermaid
 flowchart TD
-    Ops[Operations Framework: Schedules, Cycles, Showcase] --> Club[Club Leadership: Activities, Projects, Culture]
+    Ops[Operations Framework: Schedules, Cycles, Showcase] --> Club[Club Leadership & Members: Events, Projects, Culture]
 ```
 
-This structure ensures that four very different clubs can develop their own unique identities without being forced into a rigid, one-size-fits-all format.
+## Diversity of Activities
+
+A Club Cycle is not restricted to a single project or a rigid weekly template. Within a cycle, clubs may engage in a mix of activities:
+
+- Events: Workshops, competitions, challenges, guest talks, debates, creative sessions, and games.
+- Projects: Individual, team, short-term, or multi-week creative or technical builds.
+- Individual Learning: Independent skill practice, tool exploration, and personal portfolio work supported by peer feedback.
+- Collaborative Activities: Brainstorming sessions, practice challenges, peer teaching, and group exercises.
+- Showcase Preparation: Organizing completed work, demonstrations, or performances for Showcase Day.
+
+This flexibility ensures that every club can adapt its schedule to the interests and creative ideas of its members.

@@ -7,11 +7,11 @@ graph TD
     Mentor[Faculty Mentor: Advice & Feedback]
     Pres[President: Direction & Representation]
     VP[Vice President: Operations & Logistics]
-    Coords[Club Coordinators: Specific Tasks & Activity Leads]
+    Coords[Club Coordinators: Activity & Event Leads]
     
     Mentor -.->|Guidance| Pres
     Pres --- VP
     VP --> Coords
 ```
 
-Officers work together to coordinate sessions, support members, and ensure the club completes its monthly showcase deliverables.
+Club leaders work together to plan activities, support members, and ensure the club completes its monthly showcase deliverables.

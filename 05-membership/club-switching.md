@@ -1,6 +1,6 @@
 # Club Switching Protocol
 
-Students can switch clubs to expand their skills and explore different areas. However, switching is tied to the club cycle so that students complete their current commitment before moving to another club.
+Students can switch clubs to expand their skill set and experience different areas. However, a student cannot abandon an active club midway through its cycle.
 
 ```mermaid
 flowchart LR
@@ -15,13 +15,13 @@ flowchart LR
 
 1. Be enrolled in your current club.
 2. Participate meaningfully during the cycle.
-3. Make a meaningful contribution to your club's work.
-4. Remain with the club until Showcase Day.
-5. Complete your contribution to the Showcase.
+3. Make a meaningful contribution to your club's activities or work.
+4. Remain with the club through Showcase Day.
+5. Complete your contribution to the current cycle.
 6. After Showcase Day, use the period before the next club session as the switching window.
 7. Inform your current club leadership that you intend to switch.
-8. Approach the President of the club you want to join.
-9. Current and prospective club leadership coordinate the transfer.
+8. Approach the President of the prospective club.
+9. Coordinate the transfer through the current and prospective leadership teams.
 10. Join the new club for the next cycle.
 
-The purpose of this system is to complete your commitment, experience the outcome, and then explore another skill area.
+The prospective club leadership considers its available capacity before accepting the transfer. Switching exists to encourage exploration and skill expansion while maintaining commitment and accountability.

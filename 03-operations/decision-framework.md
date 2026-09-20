@@ -8,4 +8,4 @@ The Operations Team handles central framework decisions, including overall regis
 
 ## Club Level Decisions
 
-Individual club leadership teams handle internal operational decisions, including weekly session topics, project themes, internal task assignments, preparation for Showcase Day, and club culture.
+Individual club leadership teams handle internal operational decisions, including weekly session topics, event planning, project selection, internal task assignments, preparation for Showcase Day, and club culture.

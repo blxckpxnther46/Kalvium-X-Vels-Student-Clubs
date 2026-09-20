@@ -4,11 +4,11 @@ Club activities map directly to four core growth pillars that support personal a
 
 ## Visual & Technical Creativity
 
-Covered primarily by the 2D & 3D Club, this pillar emphasizes visual art, UI/UX design, 2D animation, game asset creation, and 3D modeling.
+Covered primarily by the 2D & 3D Club, this pillar emphasizes visual art, UI/UX design, 2D animation, game asset creation, 3D modeling, rendering, and visual problem solving.
 
 ## Media & Digital Communication
 
-Covered primarily by the Social Media Club, this pillar focuses on video editing, podcast production, graphic design, media strategy, and digital storytelling.
+Covered primarily by the Social Media Club, this pillar focuses on video editing, podcast production, graphic design, media strategy, filmmaking, and digital storytelling.
 
 ## Strategic & Analytical Thinking
 
@@ -16,4 +16,4 @@ Covered primarily by the Abstract Strategies Club, this pillar builds logical re
 
 ## Rhetoric & Leadership
 
-Covered primary by the Debate & Public Speaking Club, this pillar develops persuasive speaking, parliamentary debate, pitch delivery, rhetoric, and stage confidence.
+Covered primarily by the Debate & Public Speaking Club, this pillar develops persuasive speaking, parliamentary debate, pitch delivery, rhetoric, presentation skills, and stage confidence.

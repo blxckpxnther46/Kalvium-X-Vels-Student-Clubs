@@ -4,16 +4,16 @@ The Debate & Public Speaking Club develops clear articulators, logical debaters,
 
 ## Focus Areas
 
-The club focuses on communication, public speaking, structured argumentation, persuasive speech, rhetoric, presentation skills, confidence, and stage presence.
+The club focuses on communication, public speaking, argumentation, presentation, persuasive communication, confidence, rhetoric, and stage presence.
 
-## Activities & Projects
+## Activities & Exploration
 
-Members participate in speaking and debate activities, including:
+Activities in the club can include:
 
-- Parliamentary and Oxford-style debates on technology, business, and societal topics.
-- Group discussions, consensus building, and moderation exercises.
-- Product pitch presentations, elevator speeches, and startup idea defenses.
-- Impromptu speaking exercises and Just a Minute (JAM) sessions.
-- Keynote presentations, story-driven talks, and TED-style lectures.
+- Structured Debates: Parliamentary debates, Oxford-style debates, and policy discussions on technology and societal issues.
+- Group Discussions: Industry-style consensus building, group dynamics, and moderation practice.
+- Pitching & Elevator Talks: Startup pitch presentations, elevator speeches, and idea defense roleplay.
+- Impromptu Speaking & JAM: Rapid thinking exercises, Just a Minute (JAM) sessions, and fluency under time limits.
+- Keynotes & TED-style Talks: Prepared speech delivery, storytelling narratives, and presentation slide design.
 
-The club prepares members to communicate effectively in academic presentations, job interviews, and professional keynotes.
+These examples serve to inspire session ideas. Leaders and members can introduce new debate formats, speaking challenges, and rhetoric workshops.

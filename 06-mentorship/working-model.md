@@ -1,7 +1,8 @@
 # Student-Mentor Working Model
 
-Officers meet with their mentor for short check-ins during the cycle:
+Club leaders interact with their mentor through short check-ins and regular report reviews:
 
-- Start of Cycle: Review proposed project goals and resource needs.
-- Mid-Cycle: Review build progress and address any technical challenges.
-- Showcase Day: Evaluate completed project outputs and share constructive feedback.
+- Cycle Kickoff: Review proposed activities, projects, and resource needs.
+- Weekly/Monthly Report Review: Mentors review submitted reports to maintain visibility into club progress.
+- Mid-Cycle Check-in: Discuss activity progress and resolve any technical challenges.
+- Showcase Day: Evaluate completed showcase outputs and share constructive feedback.

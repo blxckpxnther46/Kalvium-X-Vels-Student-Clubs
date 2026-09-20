@@ -4,6 +4,6 @@ Every student may be enrolled in only one club at a time during an active cycle.
 
 ## Rationale
 
-Focusing on one club ensures that members commit enough time to gain real skills and complete tangible project outputs. It also gives project teams reliable attendance from every member.
+Focusing on one club ensures that members commit enough time to gain real skills and make meaningful contributions. It also ensures reliable participation for team activities and events.
 
-Students can explore other interest areas over time by switching clubs between cycles.
+The rule does not prevent a student from exploring other clubs. Club switching exists specifically to allow students to experience different areas across multiple cycles.

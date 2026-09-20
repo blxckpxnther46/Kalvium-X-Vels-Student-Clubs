@@ -4,15 +4,16 @@ The 2D & 3D Club is the visual design and creative hub of the ecosystem. It brin
 
 ## Focus Areas
 
-The club focuses on visual creativity, digital art, design systems, 2D animation, interactive media, 3D modeling, and rendering.
+The club focuses on visual creativity, visual design, digital art, animation, interactive media, 3D modeling, rendering, and visual problem solving.
 
-## Activities & Projects
+## Activities & Exploration
 
-Members participate in hands-on design and art activities, including:
+Activities in the club can include:
 
-- Digital art, illustration, and character concept design.
-- UI/UX wireframing, mobile app prototyping, and design systems in Figma.
-- 2D game asset creation, sprite animation, and indie game prototypes in Unity or Godot.
-- 3D environment modeling, low-poly art, texturing, lighting, and rendering in Blender.
+- Traditional & Digital Art: Painting, drawing, concept art, character design, and digital illustration.
+- UI/UX & Product Design: Wireframing, mobile app prototyping, website interfaces, and Figma design systems.
+- 2D Animation & Game Dev: Character sprite animation, motion graphics, 2D game prototypes, and Unity or Godot development.
+- 3D Modeling & Rendering: Low-poly modeling, 3D environment art, texturing, lighting, and rendering in Blender.
+- Visual Experimentation: Testing new design tools, Shader graphics, and visual design challenges.
 
-Club leadership plans monthly project themes that allow members to work individually or in small teams to produce showcase-ready artwork and design files.
+These activities are examples of areas the club can explore, not a fixed curriculum. Members and leaders are encouraged to introduce new visual tools, projects, and creative experiments.

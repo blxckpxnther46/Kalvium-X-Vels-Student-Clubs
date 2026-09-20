@@ -4,4 +4,4 @@ Students join a club by completing the official registration form during publish
 
 ## Registration Process
 
-To join, students submit their details and select one club for the active cycle. Enrollment may be subject to available capacity. Once registered, members receive session locations and welcome details from their club Vice President.
+To join, students submit their details and select one club for the active cycle. Enrollment may be subject to available capacity. Once registered, members receive session location details and welcome information from their club Vice President.

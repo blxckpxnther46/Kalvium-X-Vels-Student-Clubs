@@ -34,6 +34,7 @@
 * [Club Coordinators](04-club-leadership/coordinators.md)
 * [Selection & Succession Process](04-club-leadership/selection-process.md)
 * [Leadership Deliverables & Model](04-club-leadership/deliverables.md)
+* [Weekly & Monthly Reports](04-club-leadership/reporting.md)
 
 ## 05: Membership & Lifecycle
 * [Membership & Lifecycle](05-membership/README.md)
@@ -70,7 +71,6 @@
 ## 09: Documentation & Artifacts
 * [Documentation & Artifacts](09-documentation/README.md)
 * [Project Repositories & Build Logs](09-documentation/projects.md)
-* [Monthly Retrospective Reports](09-documentation/reports.md)
 * [Meeting Records & Attendance](09-documentation/meeting-records.md)
 * [Showcase Archive](09-documentation/showcase-archive.md)
 * [Achievements & Wall of Fame](09-documentation/achievements.md)
