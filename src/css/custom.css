@@ -342,6 +342,136 @@ div[class*='docItemContainer'],
     padding-left: 0.5rem !important;
     padding-right: 0.5rem !important;
   }
+
+  /* Mobile Navbar Height & Padding */
+  .navbar {
+    height: 60px !important;
+    min-height: 60px !important;
+    padding: 0 1rem !important;
+  }
+
+  /* Logo proportional scaling on mobile screens */
+  .navbar__brand {
+    margin-right: 0.75rem !important;
+  }
+
+  .navbar__logo img {
+    height: 32px !important;
+    max-height: 34px !important;
+    width: auto !important;
+    object-fit: contain !important;
+  }
+
+  /* Touch-friendly Hamburger Menu Button */
+  .navbar__toggle {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    width: 40px !important;
+    height: 40px !important;
+    margin-right: 0.5rem !important;
+    border-radius: 8px !important;
+    color: var(--ifm-text-color) !important;
+    cursor: pointer !important;
+    transition: background-color 180ms ease;
+  }
+
+  .navbar__toggle:hover,
+  .navbar__toggle:focus {
+    background: var(--ifm-menu-color-background-hover) !important;
+  }
+
+  /* Mobile Navigation Overlay Drawer */
+  .navbar-sidebar {
+    position: fixed !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    width: 85vw !important;
+    max-width: 360px !important;
+    height: 100vh !important;
+    height: 100dvh !important;
+    background: #0D0D0E !important;
+    box-shadow: 4px 0 24px rgba(0, 0, 0, 0.4) !important;
+    z-index: 1000 !important;
+    display: flex !important;
+    flex-direction: column !important;
+    overflow: hidden !important;
+  }
+
+  html[data-theme='light'] .navbar-sidebar {
+    background: #FFFFFF !important;
+    box-shadow: 4px 0 24px rgba(0, 0, 0, 0.15) !important;
+  }
+
+  /* Drawer Top Header (Logo + Close Button) */
+  .navbar-sidebar__brand {
+    height: 60px !important;
+    min-height: 60px !important;
+    padding: 0 1.2rem !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    border-bottom: 1px solid var(--ifm-border-color) !important;
+    background: var(--ifm-background-surface-color) !important;
+    flex-shrink: 0 !important;
+  }
+
+  .navbar-sidebar__brand .navbar__brand {
+    margin-right: 0 !important;
+  }
+
+  .navbar-sidebar__brand .navbar__logo img {
+    height: 32px !important;
+    max-height: 34px !important;
+  }
+
+  /* Isolated Close Button in Drawer Header */
+  .navbar-sidebar__close {
+    width: 36px !important;
+    height: 36px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    border-radius: 8px !important;
+    color: var(--ifm-color-secondary-text) !important;
+    cursor: pointer !important;
+    transition: all 180ms ease !important;
+  }
+
+  .navbar-sidebar__close:hover {
+    color: var(--ifm-heading-color) !important;
+    background: var(--ifm-menu-color-background-hover) !important;
+  }
+
+  /* Independent Scrollable Navigation Items Container */
+  .navbar-sidebar__items {
+    flex: 1 1 auto !important;
+    overflow-y: auto !important;
+    -webkit-overflow-scrolling: touch !important;
+    padding: 1rem 0.75rem !important;
+  }
+
+  .navbar-sidebar__items .menu {
+    padding: 0 !important;
+  }
+
+  /* Dimmed Content Backdrop Overlay */
+  .navbar-sidebar__backdrop {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background: rgba(0, 0, 0, 0.55) !important;
+    backdrop-filter: blur(4px) !important;
+    -webkit-backdrop-filter: blur(4px) !important;
+    z-index: 999 !important;
+  }
+
+  html[data-theme='light'] .navbar-sidebar__backdrop {
+    background: rgba(0, 0, 0, 0.3) !important;
+  }
 }
 
 .markdown {
