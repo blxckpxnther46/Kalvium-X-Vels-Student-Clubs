@@ -4,7 +4,9 @@ The Operations Team acts as the central link between student clubs and universit
 
 ## Facility & Calendar Alignment
 
-Responsibilities include reserving computer labs, seminar halls, and open spaces for Growth Hours, as well as aligning club schedules with academic calendars, exams, and university holidays. Equipment requests for AV gear, microphones, and lab workstations are also routed through campus channels by the Operations Team.
+Responsibilities include reserving computer labs, seminar halls, and open spaces for Growth Hours, as well as aligning club schedules with academic calendars, exams, and university holidays.
+
+Students work on their own laptops and, if needed, can bring their own equipment. The Operations Team assists with venue reservations and schedule alignment, but does not provide or guarantee equipment supply.
 
 ## Enrollment & Central Rosters
 

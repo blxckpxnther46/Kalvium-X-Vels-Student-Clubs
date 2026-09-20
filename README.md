@@ -32,4 +32,3 @@ Use the sidebar navigation or the [GitBook Navigation Index](SUMMARY.md) to expl
 - Section 07: Growth Hours schedule, sprint lifecycles, and Showcase Day.
 - Section 08: Conduct, media publishing, and communication guidelines.
 - Section 09: Project archives and documentation.
-- Section 10: Official forms, slide templates, and recommended tools.

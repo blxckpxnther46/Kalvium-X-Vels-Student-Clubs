@@ -63,9 +63,3 @@ site:
       path: documentation
       content:
         directory: ./09-documentation
-    - type: space
-      key: space-resources
-      title: Resources & Templates
-      path: resources
-      content:
-        directory: ./10-resources

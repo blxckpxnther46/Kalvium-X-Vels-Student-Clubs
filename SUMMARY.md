@@ -40,6 +40,3 @@
 
 ## 09: Documentation & Artifacts
 * [Project Documentation & Archives](09-documentation/README.md)
-
-## 10: Resources & Templates
-* [Forms, Templates & Resources](10-resources/README.md)
