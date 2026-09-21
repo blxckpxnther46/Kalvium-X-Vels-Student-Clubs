@@ -32,7 +32,7 @@
 * [Faculty Mentorship & Support Model](06-mentorship/README.md)
 
 ## 07: Scheduling & Activities
-* [Growth Hours & Club Activities](07-scheduling-activities/README.md)
+* [Club Hours & Scheduling](07-scheduling-activities/README.md)
 * [The Monthly Showcase Day & Events](07-scheduling-activities/showcase-day.md)
 
 ## 08: Guidelines & Governance

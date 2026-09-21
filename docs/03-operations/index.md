@@ -41,7 +41,7 @@ The Operations Team provides ecosystem coordination rather than creative control
 ### Operations Responsibilities
 
 - Maintaining the common Student Clubs framework.
-- Coordinating shared structures and schedules such as Growth Hours.
+- Coordinating shared structures and schedules such as Club Hours within available Growth Hours.
 - Maintaining continuity across monthly cycles and leadership transitions.
 - Coordinating with faculty and campus channels when required.
 - Helping clubs navigate campus-level coordination.

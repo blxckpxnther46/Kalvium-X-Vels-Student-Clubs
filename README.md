@@ -119,7 +119,7 @@ The documentation source files are located in `docs/`:
 - `docs/04-club-leadership/`: Leadership Structure, Roles, Deliverables, Weekly/Monthly Reporting
 - `docs/05-membership/`: Joining, Club Cycles, One-Club Policy, Club Switching Protocol
 - `docs/06-mentorship/`: Faculty Mentorship Role & Support Model
-- `docs/07-scheduling-activities/`: Growth Hours Schedule & Showcase Day
+- `docs/07-scheduling-activities/`: Club Hours Schedule & Showcase Day
 - `docs/08-guidelines/`: Code of Conduct & Governance Guidelines
 - `docs/09-documentation/`: Project Archives & Documentation
 

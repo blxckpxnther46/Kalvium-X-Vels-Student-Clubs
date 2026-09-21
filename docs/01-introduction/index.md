@@ -21,7 +21,7 @@ The work created during club sessions serves as concrete evidence of your skills
 
 The framework establishes the common structure of the Student Clubs. It does not limit what students or club leaders can create, organize, explore, or experiment with.
 
-The central framework defines common rules: what clubs exist, enrollment procedures, the One-Club-Only policy, the monthly Club Cycle, Showcase Day, the Club Switching Window, basic leadership roles, and Growth Hours timing. Within those boundaries, each club leadership team and its members have full freedom to propose, design, and run their own activities, workshops, projects, discussions, events, and learning experiences.
+The central framework defines common rules: what clubs exist, enrollment procedures, the One-Club-Only policy, the monthly Club Cycle, Showcase Day, the Club Switching Window, basic leadership roles, and Club Hours scheduling within available Growth Hours. Within those boundaries, each club leadership team and its members have full freedom to propose, design, and run their own activities, workshops, projects, discussions, events, and learning experiences.
 
 ## The Four Active Clubs
 

@@ -74,7 +74,7 @@ const sidebars = {
       collapsible: true,
       collapsed: false,
       items: [
-        { type: 'doc', id: 'scheduling-activities/index', label: 'Growth Hours & Club Activities' },
+        { type: 'doc', id: 'scheduling-activities/index', label: 'Club Hours & Scheduling' },
         'scheduling-activities/showcase-day',
       ],
     },

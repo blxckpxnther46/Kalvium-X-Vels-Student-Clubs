@@ -69,7 +69,7 @@ Club Coordinators take ownership of specific responsibilities, activities, or ev
 - Leading specific workshops, practice sessions, or tutorials.
 - Coordinating events, competitions, or challenges.
 - Managing project sub-teams or activity groups.
-- Supporting members during Growth Hours sessions.
+- Supporting members during Club Hours sessions.
 - Taking ownership of assigned tasks.
 - Assisting with club documentation and reporting.
 
