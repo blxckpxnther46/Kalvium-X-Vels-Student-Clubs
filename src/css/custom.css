@@ -507,6 +507,21 @@ div[class*='docItemContainer'],
   margin-bottom: 1.4rem;
 }
 
+.markdown h1[id],
+.markdown h2[id],
+.markdown h3[id],
+.markdown h4[id],
+.markdown h5[id],
+.markdown h6[id],
+h1.anchor,
+h2.anchor,
+h3.anchor,
+h4.anchor,
+h5.anchor,
+h6.anchor {
+  scroll-margin-top: 90px;
+}
+
 .markdown h1 {
   font-size: 48px;
   font-weight: 700;
