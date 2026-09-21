@@ -39,26 +39,6 @@ const config = {
     ],
   ],
 
-  plugins: [
-    [
-      require.resolve('@easyops-cn/docusaurus-search-local'),
-      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
-      ({
-        hashed: true,
-        language: ['en'],
-        docsRouteBasePath: '/',
-        docsDir: 'docs',
-        indexDocs: true,
-        indexBlog: false,
-        indexPages: false,
-        highlightSearchTermsOnTargetPage: true,
-        searchBarPosition: 'right',
-        searchBarShortcut: true,
-        searchBarShortcutHint: true,
-      }),
-    ],
-  ],
-
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
@@ -77,7 +57,7 @@ const config = {
         items: [
           {
             type: 'search',
-            position: 'right',
+            position: 'left',
           },
           {
             type: 'docSidebar',
