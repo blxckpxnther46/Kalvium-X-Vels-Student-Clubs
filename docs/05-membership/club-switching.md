@@ -2,9 +2,7 @@
 
 Students can switch clubs to expand their skill set and experience different areas. However, a student cannot abandon an active club midway through its cycle.
 
-```text
-[ Join Club ] ──► [ Active Participation ] ──► [ Cycle Contribution ] ──► [ Showcase Day ] ──► [ Transfer Window ] ──► [ Join New Club ]
-```
+![Club Switching Sequence Flowchart](/img/diagrams/club-switching.jpg)
 
 ## Step-by-Step Switching Sequence
 

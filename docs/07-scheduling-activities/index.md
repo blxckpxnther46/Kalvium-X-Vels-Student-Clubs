@@ -10,21 +10,7 @@ Kalvium provides designated time periods known as Growth Hours to support overal
 
 Growth Hours represent the broader time allocation provided by Kalvium for student growth. Club Hours refer specifically to the operating time within those available hours allocated to Student Club activities.
 
-```text
-Kalvium Growth Hours
-        │
-        ▼
-Available Growth Hours
-        │
-        ▼
-Student Club Hours
-        │
-        ▼
-Students move to their respective club rooms
-        │
-        ▼
-Club activities and collaboration
-```
+![Growth Hours & Club Hours Hierarchy Flowchart](/img/diagrams/club-hours.jpg)
 
 ## Club Hours Schedule
 

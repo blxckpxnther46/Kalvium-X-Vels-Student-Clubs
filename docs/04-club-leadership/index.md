@@ -6,30 +6,7 @@ title: Leadership Structure & Roles
 
 Each club is led by an executive team consisting of a President, Vice President, and Club Coordinators, supported by a Faculty Mentor and connected through the Operations Team.
 
-```text
-                +------------------------------------+
-                |          Campus / Faculty          |
-                |    Academic Alignment & Guidance   |
-                +-----------------+------------------+
-                                  |
-                                  v
-                +------------------------------------+
-                |       Operations Coordination      |
-                |   Ecosystem & Campus Connection    |
-                +-----------------+------------------+
-                                  |
-                                  v
-                +------------------------------------+
-                |           Club Leadership          |
-                |  Presidents, VPs, & Coordinators   |
-                +-----------------+------------------+
-                                  |
-                                  v
-                +------------------------------------+
-                |            Active Members          |
-                |   Participation & Project Builds   |
-                +------------------------------------+
-```
+![Leadership Structure Flowchart](/img/diagrams/leadership-structure.jpg)
 
 This model represents coordination and connection across the ecosystem, not a reporting hierarchy. Operations does not sit above Club Presidents. Club Presidents lead and run their respective clubs.
 

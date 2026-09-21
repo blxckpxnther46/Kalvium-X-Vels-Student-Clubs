@@ -2,11 +2,7 @@
 
 While club leadership has full freedom over creative and activity choices, all leaders follow a common operating model to guide their club through each cycle:
 
-Understand -> Plan -> Execute -> Build -> Showcase -> Reflect
-
-```text
-[ Understand ] ──► [ Plan ] ──► [ Execute ] ──► [ Build ] ──► [ Showcase ] ──► [ Reflect ]
-```
+![Leadership Operating Model Flowchart](/img/diagrams/leadership-model.jpg)
 
 ## Understand
 
