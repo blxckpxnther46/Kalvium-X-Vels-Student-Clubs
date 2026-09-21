@@ -6,7 +6,7 @@ title: Framework & Club Autonomy
 
 The central framework sets the common boundaries that allow the ecosystem to operate consistently, while club leaders and active members decide how their club operates within those boundaries.
 
-![Ecosystem Framework & Club Autonomy Flowchart](/img/diagrams/ecosystem-coordination.jpg)
+![Ecosystem Framework & Club Autonomy Flowchart](/img/diagrams/ecosystem-coordination.png)
 
 The Operations Team is a coordination layer within the student-club ecosystem, not a management layer above it.
 

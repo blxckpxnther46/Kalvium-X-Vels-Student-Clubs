@@ -51,7 +51,7 @@ The following individuals represent the current leadership and mentorship team f
 - Current President: To Be Assigned
 - Current Vice President: To Be Assigned
 - Current Club Coordinators: To Be Assigned
-- **Club Room:** To be Assigned
+- Club Room: To be Assigned
 
 ### Club Resources
 

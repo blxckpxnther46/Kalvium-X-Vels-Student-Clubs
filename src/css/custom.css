@@ -571,15 +571,61 @@ div[class*='docItemContainer'],
   font-weight: 500;
 }
 
-/* Documentation Banner Images */
+/* Documentation Banner & Diagram Images */
 .markdown img {
   border-radius: 16px;
   border: 1px solid var(--ifm-border-color);
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
-  max-height: 380px;
-  width: 100%;
-  object-fit: cover;
+  max-height: none !important;
+  height: auto !important;
+  width: 100% !important;
+  object-fit: contain !important;
   margin: 1.5rem 0;
+}
+
+/* Full-Width Diagram Card Container with Scaled Inner Image */
+.diagram-card,
+.diagram-container {
+  display: block;
+  width: 100% !important;
+  max-width: 100% !important;
+  border-radius: 16px;
+  border: 1px solid var(--ifm-border-color);
+  background: var(--ifm-background-surface-color);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+  padding: 1.8rem 1.2rem;
+  margin: 2rem 0;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.diagram-card img,
+.diagram-container img {
+  border: none !important;
+  box-shadow: none !important;
+  border-radius: 0 !important;
+  margin: 0 auto !important;
+  display: block !important;
+  height: auto !important;
+  object-fit: contain !important;
+}
+
+.diagram-card--sm img,
+.diagram-container--sm img {
+  max-width: 440px !important;
+  width: 100% !important;
+}
+
+.diagram-card--md img,
+.diagram-container--md img {
+  max-width: 620px !important;
+  width: 100% !important;
+}
+
+.diagram-card--lg img,
+.diagram-container--lg img {
+  max-width: 100% !important;
+  width: 100% !important;
 }
 
 /* Right "ON THIS PAGE" Table of Contents */
