@@ -8,7 +8,7 @@ All members must maintain a respectful, inclusive, and professional environment 
 
 ## Community Standards
 
-Members are expected to treat peers, leaders, mentors, and guests with dignity. Plagiarism of code, design assets, video media, or speeches is prohibited. Campus lab facilities must be handled responsibly.
+Members are expected to treat peers, leaders, mentors, and guests with dignity. Plagiarism of code, design assets, video media, or speeches is prohibited. Campus facilities and shared spaces must be handled responsibly.
 
 Students work on their own laptops and bring their own personal equipment when needed.
 
@@ -25,5 +25,5 @@ Joint projects are encouraged when they create meaningful cross-disciplinary lea
 Disputes or policy violations are handled through a clear escalation path:
 
 - Stage 1: Discussion between the member and club leadership.
-- Stage 2: Review by the Operations Team if the issue remains unresolved.
+- Stage 2: Coordination with the Operations Team if the issue involves cross-club coordination or system framework clarification.
 - Stage 3: Consultation with the Faculty Mentor and Campus Administration for serious matters.

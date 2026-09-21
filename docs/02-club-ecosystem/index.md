@@ -4,20 +4,23 @@ title: Framework & Club Autonomy
 
 # Framework & Club Autonomy
 
-The central framework sets the boundaries that make the ecosystem work consistently, while club leaders and members decide how their club operates within those boundaries.
+The central framework sets the common boundaries that allow the ecosystem to operate consistently, while club leaders and active members decide how their club operates within those boundaries.
 
 ```text
 +-----------------------------------------------------------------------+
 |                 Central Operations Team & Framework                   |
 |        Schedules • Monthly Cycles • One-Club Policy • Showcase        |
-+-----------------------------------+-+---------------------------------+
-                                    |
++-----------------------------------+-----------------------------------+
+                                    ^
+                                    | (Coordination & Alignment)
                                     v
 +-----------------------------------------------------------------------+
 |                    Club Leadership & Active Members                   |
 |         Events • Project Builds • Workshops • Club Culture            |
 +-----------------------------------------------------------------------+
 ```
+
+The Operations Team is a coordination layer within the student-club ecosystem, not a management layer above it.
 
 ## Diversity of Activities
 

@@ -4,32 +4,34 @@ title: Leadership Structure & Roles
 
 # Leadership Structure & Roles
 
-Each club is led by a student executive team consisting of a President, Vice President, and Club Coordinators, supported by a Faculty Mentor.
+Each club is led by an executive team consisting of a President, Vice President, and Club Coordinators, supported by a Faculty Mentor and connected through the Operations Team.
 
 ```text
                 +------------------------------------+
-                |           Faculty Mentor           |
-                |     Advice & Milestone Feedback    |
-                +-----------------+------------------+
-                                  | (Strategic Guidance)
-                                  v
-                +------------------------------------+
-                |             President              |
-                |      Direction & Representation    |
+                |          Campus / Faculty          |
+                |    Academic Alignment & Guidance   |
                 +-----------------+------------------+
                                   |
                                   v
                 +------------------------------------+
-                |           Vice President           |
-                |      Operations & Logistics        |
+                |       Operations Coordination      |
+                |   Ecosystem & Campus Connection    |
                 +-----------------+------------------+
                                   |
                                   v
                 +------------------------------------+
-                |          Club Coordinators         |
-                |       Activity & Event Leads       |
+                |           Club Leadership          |
+                |  Presidents, VPs, & Coordinators   |
+                +-----------------+------------------+
+                                  |
+                                  v
+                +------------------------------------+
+                |            Active Members          |
+                |   Participation & Project Builds   |
                 +------------------------------------+
 ```
+
+This model represents coordination and connection across the ecosystem, not a reporting hierarchy. Operations does not sit above Club Presidents. Club Presidents lead and run their respective clubs.
 
 ## Role Responsibilities
 
@@ -73,4 +75,4 @@ Club Coordinators take ownership of specific responsibilities, activities, or ev
 
 ## Selection & Succession
 
-Leadership positions are filled through transparent selection periods based on commitment, organizational capability, and initiative. Interested members submit an application detailing their background and ideas for upcoming club cycles. Candidates complete a review with the Operations Team and Faculty Mentors before appointments are finalized.
+Leadership positions are filled through transparent selection periods based on commitment, organizational capability, and initiative. Interested members submit an application detailing their background and ideas for upcoming club cycles. Candidates complete a review with outgoing leadership, Faculty Mentors, and Operations to ensure alignment across the shared ecosystem before appointments are finalized.
